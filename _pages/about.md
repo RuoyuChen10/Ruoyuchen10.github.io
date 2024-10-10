@@ -17,11 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, a Ph.D. candidate in Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS), under the tutelage of [Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en) (Professor at Sun Yat-sen University). My research interests include <u><i>Interpretable AI</i></u> and <u><i>Foundation Model</i></u>. 
+I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, a Ph.D. candidate in Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS), under the tutelage of [Prof. Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en) (currently the Dean of School of Cyber Science and Technology, Sun Yat-sen University). My research interests include <u><i>Interpretable AI</i></u> and <u><i>Foundation Model</i></u>. I am also collaborate closely with [Prof. Hua Zhang]() at IIE, CAS, and [Dr. Siyuan Liang](https://liangsiyuan21.github.io/) at NUS.
 
 I'm committed to making XAI meaningful and actually helping us with AI systems. Including in the <u><i>model testing phase</i></u>, building an interpretation method for debugging the model to help us discover potential biases and errors in the model. In the <u><i>model training phase</i></u>, specific defects are discovered through interpretability, and a reasonable feedback mechanism is designed to enable the model to automatically repair errors to improve model performance and generalization, while making the training process transparent. In the <u><i>model deployment phase</i></u>, improve the explanation of the model and study the human-computer interaction or AI agent processes in dynamic environments.
 
-I received my B.E. degree from School of Control Engineering, Northeastern University. I am also very fortunate to have worked with lots of distinguished researchers. 
+I received my B.E. degree from School of Control Engineering, Northeastern University and mentored by [Prof. Yuliang Zhao](https://scholar.google.com/citations?hl=zh-CN&user=UozbSy4AAAAJ) at NEU, [Prof. Yongliang Yang](https://people.ucas.edu.cn/~yl-yang) at SIA, CAS, and [Prof. Wen Jung Li](https://scholar.google.com/citations?user=22F6Eq4AAAAJ&hl=zh-CN) (Fellow, IEEE) at CityU.
 
 I am open for collaborations in research. I am also actively looking for collaborators, especially in the fields of **Trustworthy AI** and **Foundation Model**. Please feel free to contact me.
 
@@ -61,6 +61,7 @@ International Conference on Learning Representations (ICLR),
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM TOMM 2023</div><img src='images/sim2word.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Sim2Word: Explaining Similarity with Representative Attribute Words via Counterfactual Explanations](https://dl.acm.org/doi/abs/10.1145/3563039)
+
 **Ruoyu Chen**, Jingzhi Li, Hua Zhang, Changchong Sheng, Li Liu, and Xiaochun Cao
 
 [**Code**](https://github.com/RuoyuChen10/Sim2Word) / [**Paper**](https://dl.acm.org/doi/abs/10.1145/3563039) / [**Poster**](https://ruoyuchen10.github.io/slide/Sim2Word_TOMMCAP2022.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
@@ -117,8 +118,8 @@ Ranking: 2/119
 
 ### Journal Reviewer
 
-- [IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) x8
-- [IEEE Transactions on Biometrics, Behavior, and Identity Science (T-BIOM)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8423754) x2
+- [IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) x11
+- [IEEE Transactions on Biometrics, Behavior, and Identity Science (T-BIOM)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8423754) x3
 
 ### Conference Reviewer
 
