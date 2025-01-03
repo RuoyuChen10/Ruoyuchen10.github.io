@@ -32,6 +32,21 @@ I am open for collaborations in research. I am also actively looking for collabo
 
 # 📝 Selected Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2024</div><img src='images/VPS.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Interpreting Object-level Foundation Models via Visual Precision Search](https://arxiv.org/abs/2411.16198)
+
+**Ruoyu Chen**, Siyuan Liang, Jingzhi Li, Shiming Liu, Maosen Li, Zheng Huang, Hua Zhang, and Xiaochun Cao
+
+[**Paper**](https://arxiv.org/abs/2411.16198) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+Preprint 2024,  
+Object-level task interpretation.
+</div>
+</div>
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2024</div><img src='images/survey_object_detection_in_open_env.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Object Detectors in the Open Environment: Challenges, Solutions, and Outlook](https://arxiv.org/abs/2403.16271)
@@ -48,10 +63,9 @@ Preprint 2024,
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024 Oral</div><img src='images/SMDL-Attribution.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Less is More: Fewer Interpretable Region via Submodular Subset Selection](https://openreview.net/forum?id=jKTUlxo5zy)
-
 **Ruoyu Chen**, Hua Zhang, Siyuan Liang, Jingzhi Li, and Xiaochun Cao
 
-[**Code**](https://github.com/RuoyuChen10/SMDL-Attribution) / [**Paper**](https://openreview.net/pdf?id=jKTUlxo5zy) / [**Slide**](https://iclr.cc/media/iclr-2024/Slides/19733.pdf) / [**Poster**](https://ruoyuchen10.github.io/slide/2053-poster.png) /  [**AI Time Presentation**](https://ruoyuchen10.github.io/slide/AITime_less-is-more.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Code**](https://github.com/RuoyuChen10/SMDL-Attribution) ![Star](https://img.shields.io/github/stars/RuoyuChen10/SMDL-Attribution.svg?style=social&label=Star) / [**Paper**](https://openreview.net/pdf?id=jKTUlxo5zy) / [**Slide**](https://iclr.cc/media/iclr-2024/Slides/19733.pdf) / [**Poster**](https://ruoyuchen10.github.io/slide/2053-poster.png) /  [**AI Time Presentation**](https://ruoyuchen10.github.io/slide/AITime_less-is-more.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 International Conference on Learning Representations (ICLR),  
 <strong><font color=red>Oral (85/7262, 1.16%)</font></strong>
@@ -64,7 +78,7 @@ International Conference on Learning Representations (ICLR),
 
 **Ruoyu Chen**, Jingzhi Li, Hua Zhang, Changchong Sheng, Li Liu, and Xiaochun Cao
 
-[**Code**](https://github.com/RuoyuChen10/Sim2Word) / [**Paper**](https://dl.acm.org/doi/abs/10.1145/3563039) / [**Poster**](https://ruoyuchen10.github.io/slide/Sim2Word_TOMMCAP2022.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Code**](https://github.com/RuoyuChen10/Sim2Word) ![Star](https://img.shields.io/github/stars/RuoyuChen10/Sim2Word.svg?style=social&label=Star) / [**Paper**](https://dl.acm.org/doi/abs/10.1145/3563039) / [**Poster**](https://ruoyuchen10.github.io/slide/Sim2Word_TOMMCAP2022.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 ACM Transactions on Multimedia Computing, Communications, and Applications,  
 <font color=purple>Impact factor: 5.1</font>
@@ -79,7 +93,7 @@ ACM Transactions on Multimedia Computing, Communications, and Applications,
 
 **Ruoyu Chen**, Yuliang Zhao, Yongliang Yang, Shuyu Wang, Lianjiang Li, Xiaopeng Sha, Lianqing Liu, Guanglie Zhang and Wen Jung Li
 
-[**Code**](https://github.com/RuoyuChen10/Image_weighing) / [**Paper**](https://doi.org/10.1016/j.psj.2022.102348) / [**Poster**](https://ruoyuchen10.github.io/slide/Image_Weighing_PoultrySci.2022.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Code**](https://github.com/RuoyuChen10/Image_weighing) ![Star](https://img.shields.io/github/stars/RuoyuChen10/Image_weighing.svg?style=social&label=Star) / [**Paper**](https://doi.org/10.1016/j.psj.2022.102348) / [**Poster**](https://ruoyuchen10.github.io/slide/Image_Weighing_PoultrySci.2022.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 Poultry Science (Top Journal in Agricultural and Biological Sciences),  
 <font color=purple>Impact factor: 4.4</font>
@@ -88,7 +102,7 @@ Poultry Science (Top Journal in Agricultural and Biological Sciences),
 
 - Identity-Preserving Face Anonymization via Adaptively Facial Attributes Obfuscation,  
 Jingzhi Li, Lutong Han, **Ruoyu Chen**, Hua Zhang, Bing Han, Lili Wang, and Xiaochun Cao, **ACM MM 2021**, <strong><font color=red>Oral</font></strong>,  
-[**Code**](https://github.com/RuoyuChen10/Facial_Attributes_Obfuscation) / [**Paper**](https://dl.acm.org/doi/abs/10.1145/3474085.3475367)
+[**Code**](https://github.com/RuoyuChen10/Facial_Attributes_Obfuscation) ![Star](https://img.shields.io/github/stars/RuoyuChen10/Facial_Attributes_Obfuscation.svg?style=social&label=Star) / [**Paper**](https://dl.acm.org/doi/abs/10.1145/3474085.3475367)
 
 - More papers are being submitted, or please visit my [Google Scholar](https://scholar.google.com/citations?user=rvxqCZIAAAAJ&hl) to view all papers.
 
