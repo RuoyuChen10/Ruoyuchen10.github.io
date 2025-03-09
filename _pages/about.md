@@ -27,20 +27,21 @@ I am open for collaborations in research. I am also actively looking for collabo
 
 
 # 🔥 News
-- *2024.01.16*: 🎉🎉 One paper is accepted by **ICLR Oral**! 
+- *2025.02.28*: 🎉🎉 One paper is accepted by **CVPR 2025**! 
+- *2024.01.16*: One paper is accepted by **ICLR 2024 Oral**! 
 - *2023.05*: Created a new home page. 
 
 # 📝 Selected Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2024</div><img src='images/VPS.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/VPS.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Interpreting Object-level Foundation Models via Visual Precision Search](https://arxiv.org/abs/2411.16198)
 
 **Ruoyu Chen**, Siyuan Liang, Jingzhi Li, Shiming Liu, Maosen Li, Zheng Huang, Hua Zhang, and Xiaochun Cao
 
-[**Paper**](https://arxiv.org/abs/2411.16198) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Code**](https://github.com/RuoyuChen10/VPS) ![Star](https://img.shields.io/github/stars/RuoyuChen10/VPS.svg?style=social&label=Star) / [**Paper**](https://arxiv.org/abs/2411.16198) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
-Preprint 2024,  
+IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR 2025),  
 Object-level task interpretation.
 </div>
 </div>
