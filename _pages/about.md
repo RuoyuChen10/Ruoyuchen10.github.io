@@ -17,11 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, a Ph.D. candidate in Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS), under the tutelage of [Prof. Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en) (currently the Dean of School of Cyber Science and Technology, Sun Yat-sen University). My research interests include <u><i>Interpretable AI</i></u> and <u><i>Foundation Model</i></u>. 
+I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, a Ph.D. candidate in Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS), under the tutelage of [Prof. Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en) (currently the Dean of School of Cyber Science and Technology, Sun Yat-sen University). I received my B.E. degree from Northeastern University, China. My research interests include <u><i>Interpretable AI</i></u> and <u><i>Foundation Model</i></u>. 
 
 I'm committed to making XAI meaningful and actually helping us with AI systems. Including in the <u><i>model testing phase</i></u>, building an interpretation method for debugging the model to help us discover potential biases and errors in the model. In the <u><i>model training phase</i></u>, specific defects are discovered through interpretability, and a reasonable feedback mechanism is designed to enable the model to automatically repair errors to improve model performance and generalization, while making the training process transparent. In the <u><i>model deployment phase</i></u>, improve the explanation of the model and study the human-computer interaction or AI agent processes in dynamic environments.
-
-I received my B.E. degree from School of Control Engineering, Northeastern University and mentored by [Prof. Yuliang Zhao](https://scholar.google.com/citations?hl=zh-CN&user=UozbSy4AAAAJ) at NEU, [Prof. Yongliang Yang](https://people.ucas.edu.cn/~yl-yang) at SIA, CAS, and [Prof. Wen Jung Li](https://scholar.google.com/citations?user=22F6Eq4AAAAJ&hl=zh-CN) (Fellow, IEEE) at CityU.
 
 I am open for collaborations in research. I am also actively looking for collaborators, especially in the fields of **Trustworthy AI** and **Foundation Model**. Please feel free to contact me.
 
@@ -32,6 +30,19 @@ I am open for collaborations in research. I am also actively looking for collabo
 - *2023.05*: Created a new home page. 
 
 # 📝 Selected Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/LIMA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Less is More: Efficient Black-box Attribution via Minimal Interpretable Subset Selection](https://arxiv.org/abs/2504.00470)
+
+**Ruoyu Chen**, Siyuan Liang, Jingzhi Li, Shiming Liu, Li Liu, Hua Zhang, and Xiaochun Cao
+
+[**Code**](https://github.com/RuoyuChen10/LIMA) ![Star](https://img.shields.io/github/stars/RuoyuChen10/LIMA.svg?style=social&label=Star) / [**Paper**](https://arxiv.org/abs/2504.00470) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+Preprint,  
+Black-box attribution.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/VPS.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
