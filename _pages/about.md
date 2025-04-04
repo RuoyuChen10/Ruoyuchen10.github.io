@@ -44,7 +44,7 @@ Black-box attribution.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/VPS.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 Highlight</div><img src='images/VPS.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Interpreting Object-level Foundation Models via Visual Precision Search](https://arxiv.org/abs/2411.16198)
 
@@ -53,7 +53,7 @@ Black-box attribution.
 [**Code**](https://github.com/RuoyuChen10/VPS) ![Star](https://img.shields.io/github/stars/RuoyuChen10/VPS.svg?style=social&label=Star) / [**Paper**](https://arxiv.org/abs/2411.16198) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR 2025),  
-Object-level task interpretation.
+<strong><font color=red>Highlight paper</font></strong>
 </div>
 </div>
 
