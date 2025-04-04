@@ -31,7 +31,7 @@ I am open for collaborations in research. I am also actively looking for collabo
 
 # 📝 Selected Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/LIMA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/LIMA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Less is More: Efficient Black-box Attribution via Minimal Interpretable Subset Selection](https://arxiv.org/abs/2504.00470)
 
