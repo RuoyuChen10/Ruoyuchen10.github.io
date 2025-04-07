@@ -25,7 +25,8 @@ I am open for collaborations in research. I am also actively looking for collabo
 
 
 # 🔥 News
-- *2025.02.28*: 🎉🎉 One paper is accepted by **CVPR 2025**! 
+- *2025.04.06*: 🎉🎉 VPS was selected as the **Highlight paper** of CVPR 2025.
+- *2025.02.28*: One paper is accepted by **CVPR 2025**! 
 - *2024.01.16*: One paper is accepted by **ICLR 2024 Oral**! 
 - *2023.05*: Created a new home page. 
 
