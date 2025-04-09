@@ -69,7 +69,7 @@ Black-box attribution.
 [**Code**](https://github.com/RuoyuChen10/VPS) ![Star](https://img.shields.io/github/stars/RuoyuChen10/VPS.svg?style=social&label=Star) / [**Paper**](https://arxiv.org/abs/2411.16198) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR 2025),  
-<strong><font color=red>Highlight paper</font></strong>
+<strong><font color=red>Highlight paper (387/13008, 2.98%)</font></strong>
 </div>
 </div>
 
