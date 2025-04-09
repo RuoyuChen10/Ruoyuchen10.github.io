@@ -25,12 +25,27 @@ I am open for collaborations in research. I am also actively looking for collabo
 
 
 # 🔥 News
+- *2025.04.09*: 🎉🎉 One paper is accepted by **T-PAMI**!
 - *2025.04.06*: 🎉🎉 VPS was selected as the **Highlight paper** of CVPR 2025.
 - *2025.02.28*: One paper is accepted by **CVPR 2025**! 
 - *2024.01.16*: One paper is accepted by **ICLR 2024 Oral**! 
 - *2023.05*: Created a new home page. 
 
 # 📝 Selected Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2025</div><img src='images/CCL-FSOD.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Generalized Semantic Contrastive Learning via Embedding Side Information for Few-Shot Object Detection]()
+
+**Ruoyu Chen**, Hua Zhang, Jingzhi Li, Li Liu, Zhen Huang, and Xiaochun Cao
+
+[**Code**](https://github.com/RuoyuChen10/CCL-FSOD) ![Star](https://img.shields.io/github/stars/RuoyuChen10/CCL-FSOD.svg?style=social&label=Star) / [**Paper**]() <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+IEEE Transactions on Pattern Analysis and Machine Intelligence,  
+<font color=purple>Impact factor: 20.8</font>
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/LIMA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
