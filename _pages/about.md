@@ -35,17 +35,16 @@ I am open for collaborations in research. I am also actively looking for collabo
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2025</div><img src='images/CCL-FSOD.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Generalized Semantic Contrastive Learning via Embedding Side Information for Few-Shot Object Detection]()
+[Generalized Semantic Contrastive Learning via Embedding Side Information for Few-Shot Object Detection](https://arxiv.org/abs/2504.07060)
 
 **Ruoyu Chen**, Hua Zhang, Jingzhi Li, Li Liu, Zhen Huang, and Xiaochun Cao
 
-[**Code**](https://github.com/RuoyuChen10/CCL-FSOD) ![Star](https://img.shields.io/github/stars/RuoyuChen10/CCL-FSOD.svg?style=social&label=Star) / [**Paper**]() <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Code**](https://github.com/RuoyuChen10/CCL-FSOD) ![Star](https://img.shields.io/github/stars/RuoyuChen10/CCL-FSOD.svg?style=social&label=Star) / [**Arxiv**](https://arxiv.org/abs/2504.07060) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 IEEE Transactions on Pattern Analysis and Machine Intelligence,  
 <font color=purple>Impact factor: 20.8</font>
 </div>
 </div>
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/LIMA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -57,6 +56,20 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence,
 
 Preprint,  
 Black-box attribution.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/grokking.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Beyond Progress Measures: Theoretical Insights into the Mechanism of Grokking](https://arxiv.org/abs/2504.03162)
+
+Zihan Gu$^\dagger$, **Ruoyu Chen$^{\dagger}$**, Hua Zhang, Yue Hu, and Xiaochun Cao ($\dagger$: Equal contribution)
+
+[**Paper**](https://arxiv.org/abs/2504.03162) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+Preprint,  
+Grokking Mechanism.
 </div>
 </div>
 
