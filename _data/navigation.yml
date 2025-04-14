@@ -9,6 +9,9 @@ main:
   - title: "Selected Publications"
     url: "/#-selected-publications"
 
+  - title: "Collaboration Papers"
+    url: "/#-collaboration-papers"
+
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
 
