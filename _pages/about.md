@@ -123,7 +123,7 @@ Poultry Science (Top Journal in Agricultural and Biological Sciences),
 
 Zihan Gu$^\dagger$, **Ruoyu Chen$^{\dagger}$**, Hua Zhang, Yue Hu, and Xiaochun Cao ($\dagger$: Equal contribution)
 
-[**Arxiv**](https://arxiv.org/abs/2504.03162) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Code**](https://github.com/Qihuai27/Grokking-Insight) ![Star](https://img.shields.io/github/stars/Qihuai27/Grokking-Insight.svg?style=social&label=Star) / [**Arxiv**](https://arxiv.org/abs/2504.03162) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 Preprint,  
 Grokking Mechanism.
