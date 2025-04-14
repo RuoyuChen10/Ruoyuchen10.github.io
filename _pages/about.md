@@ -35,11 +35,10 @@ I am open for collaborations in research. I am also actively looking for collabo
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2025</div><img src='images/CCL-FSOD.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Generalized Semantic Contrastive Learning via Embedding Side Information for Few-Shot Object Detection](https://arxiv.org/abs/2504.07060)
-
+[Generalized Semantic Contrastive Learning via Embedding Side Information for Few-Shot Object Detection](https://ieeexplore.ieee.org/document/10963743)
 **Ruoyu Chen**, Hua Zhang, Jingzhi Li, Li Liu, Zhen Huang, and Xiaochun Cao
 
-[**Code**](https://github.com/RuoyuChen10/CCL-FSOD) ![Star](https://img.shields.io/github/stars/RuoyuChen10/CCL-FSOD.svg?style=social&label=Star) / [**Arxiv**](https://arxiv.org/abs/2504.07060) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Code**](https://github.com/RuoyuChen10/CCL-FSOD) ![Star](https://img.shields.io/github/stars/RuoyuChen10/CCL-FSOD.svg?style=social&label=Star) / [**Paper**](https://ieeexplore.ieee.org/document/10963743) / [**Arxiv**](https://arxiv.org/abs/2504.07060) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 IEEE Transactions on Pattern Analysis and Machine Intelligence,  
 <font color=purple>Impact factor: 20.8</font>
@@ -52,7 +51,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence,
 
 **Ruoyu Chen**, Siyuan Liang, Jingzhi Li, Shiming Liu, Li Liu, Hua Zhang, and Xiaochun Cao
 
-[**Code**](https://github.com/RuoyuChen10/LIMA) ![Star](https://img.shields.io/github/stars/RuoyuChen10/LIMA.svg?style=social&label=Star) / [**Paper**](https://arxiv.org/abs/2504.00470) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Code**](https://github.com/RuoyuChen10/LIMA) ![Star](https://img.shields.io/github/stars/RuoyuChen10/LIMA.svg?style=social&label=Star) / [**Arxiv**](https://arxiv.org/abs/2504.00470) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 Preprint,  
 Black-box attribution.
@@ -66,7 +65,7 @@ Black-box attribution.
 
 Zihan Gu$^\dagger$, **Ruoyu Chen$^{\dagger}$**, Hua Zhang, Yue Hu, and Xiaochun Cao ($\dagger$: Equal contribution)
 
-[**Paper**](https://arxiv.org/abs/2504.03162) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Arxiv**](https://arxiv.org/abs/2504.03162) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 Preprint,  
 Grokking Mechanism.
@@ -79,7 +78,7 @@ Grokking Mechanism.
 
 **Ruoyu Chen**, Siyuan Liang, Jingzhi Li, Shiming Liu, Maosen Li, Zheng Huang, Hua Zhang, and Xiaochun Cao
 
-[**Code**](https://github.com/RuoyuChen10/VPS) ![Star](https://img.shields.io/github/stars/RuoyuChen10/VPS.svg?style=social&label=Star) / [**Paper**](https://arxiv.org/abs/2411.16198) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Code**](https://github.com/RuoyuChen10/VPS) ![Star](https://img.shields.io/github/stars/RuoyuChen10/VPS.svg?style=social&label=Star) / [**Arxiv**](https://arxiv.org/abs/2411.16198) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR 2025),  
 <strong><font color=red>Highlight paper (387/13008, 2.98%)</font></strong>
@@ -94,7 +93,7 @@ IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR 2025),
 
 Siyuan Liang, Wei Wang$^\dagger$, **Ruoyu Chen$^{\dagger}$**, Aishan Liu, Boxi Wu, Ee-Chien Chang, Xiaochun Cao, and Dacheng Tao ($\dagger$: Equal contribution)
 
-[**Paper**](https://arxiv.org/abs/2403.16271) / [**Project**](https://github.com/LiangSiyuan21/OEOD_Survey) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Arxiv**](https://arxiv.org/abs/2403.16271) / [**Project**](https://github.com/LiangSiyuan21/OEOD_Survey) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 Preprint 2024,  
 <strong><font color=blue>Survey paper</font></strong>
