@@ -162,7 +162,7 @@ Preprint 2024,
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2021 Oral</div><img src='images/facial-attributes-obfuscation.jpg' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2021 Oral</div><img src='images/facial-attributes-obfuscation.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Identity-Preserving Face Anonymization via Adaptively Facial Attributes Obfuscation](https://dl.acm.org/doi/abs/10.1145/3474085.3475367)
