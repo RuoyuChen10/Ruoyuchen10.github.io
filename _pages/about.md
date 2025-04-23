@@ -131,6 +131,22 @@ Grokking Mechanism.
 </div>
 
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/faceinsight.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[FaceInsight: A Multimodal Large Language Model for Face Perception](https://arxiv.org/abs/2504.15624)
+
+Jingzhi Li, Changjiang Luo, **Ruoyu Chen**, Hua Zhang, Wenqi Ren, Jianhou Gan, and Xiaochun Cao
+
+[**Arxiv**](https://arxiv.org/abs/2504.15624) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+Preprint,  
+MLLMs for Face Perception.
+</div>
+</div>
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2024</div><img src='images/survey_object_detection_in_open_env.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Object Detectors in the Open Environment: Challenges, Solutions, and Outlook](https://arxiv.org/abs/2403.16271)
