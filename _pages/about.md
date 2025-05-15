@@ -21,7 +21,7 @@ I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, a Ph.D. candidate in
 
 I'm committed to making XAI meaningful and actually helping us with AI systems. Including in the <u><i>model testing phase</i></u>, building an interpretation method for debugging the model to help us discover potential biases and errors in the model. In the <u><i>model training phase</i></u>, specific defects are discovered through interpretability, and a reasonable feedback mechanism is designed to enable the model to automatically repair errors to improve model performance and generalization, while making the training process transparent. In the <u><i>model deployment phase</i></u>, improve the explanation of the model and study the human-computer interaction or AI agent processes in dynamic environments.
 
-I am open for collaborations in research. I am also actively looking for collaborators, especially in the fields of **Trustworthy AI** and **Foundation Model**. Please feel free to contact me.
+**I am actively seeking a postdoctoral position** and would welcome the opportunity to discuss potential collaborations, especially in the fields of **Trustworthy AI** and **Foundation Model**. Please don’t hesitate to get in touch if my research interests you.
 
 
 # 🔥 News
