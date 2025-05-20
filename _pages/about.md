@@ -130,6 +130,19 @@ Grokking Mechanism.
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/Position_encoder.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Unpacking Positional Encoding in Transformers: A Spectral Analysis of Content-Position Coupling](https://arxiv.org/abs/2505.13027)
+
+Zihan Gu, Han Zhang, **Ruoyu Chen**, Yue Hu, Hua Zhang
+
+[**Arxiv**](https://arxiv.org/abs/2505.13027) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+Preprint,  
+Positional Encoding Mechanism.
+</div>
+</div>
+
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/faceinsight.jpg' alt="sym" width="100%"></div></div>
