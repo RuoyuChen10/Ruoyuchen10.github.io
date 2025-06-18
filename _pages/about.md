@@ -116,6 +116,20 @@ Poultry Science (Top Journal in Agricultural and Biological Sciences),
 
 # 📝 Collaboration Papers 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/iot_badminton.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[An Intelligent Badminton Handle with Multi-Node MEMS Sensors for Explainable Motion Recognition](https://ieeexplore.ieee.org/document/11038925/authors#authors)
+
+Jian Li, Yibo Fan, **Ruoyu Chen**, Siyuan Liang, Yifei Feng, Ying He, Yuliang Zhao
+
+[**Paper**](https://ieeexplore.ieee.org/document/11038925/authors) 
+
+IEEE Internet of Things Journal,  
+<font color=purple>Impact factor: 8.9</font>
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/grokking.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Beyond Progress Measures: Theoretical Insights into the Mechanism of Grokking](https://arxiv.org/abs/2504.03162)
