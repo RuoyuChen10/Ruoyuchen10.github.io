@@ -116,7 +116,7 @@ Poultry Science (Top Journal in Agricultural and Biological Sciences),
 
 # 📝 Collaboration Papers 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/iot_badminton.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE IOT 2025</div><img src='images/iot_badminton.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [An Intelligent Badminton Handle with Multi-Node MEMS Sensors for Explainable Motion Recognition](https://ieeexplore.ieee.org/document/11038925/authors#authors)
 
