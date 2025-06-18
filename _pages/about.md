@@ -63,10 +63,9 @@ Black-box attribution.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 Highlight</div><img src='images/VPS.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Interpreting Object-level Foundation Models via Visual Precision Search](https://arxiv.org/abs/2411.16198)
-
 **Ruoyu Chen**, Siyuan Liang, Jingzhi Li, Shiming Liu, Maosen Li, Zheng Huang, Hua Zhang, and Xiaochun Cao
 
-[**Code**](https://github.com/RuoyuChen10/VPS) ![Star](https://img.shields.io/github/stars/RuoyuChen10/VPS.svg?style=social&label=Star) / [**Arxiv**](https://arxiv.org/abs/2411.16198) / [**Poster**](https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202025/34644.png?t=1748853080.0173087) / **[机器之心](https://mp.weixin.qq.com/s/QVMua-5RGfSJzH-_tv_gRA)** / [**知乎**](https://zhuanlan.zhihu.com/p/1911811661062452785)
+[**Code**](https://github.com/RuoyuChen10/VPS) ![Star](https://img.shields.io/github/stars/RuoyuChen10/VPS.svg?style=social&label=Star) / **[Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_Interpreting_Object-level_Foundation_Models_via_Visual_Precision_Search_CVPR_2025_paper.pdf)** / [**Arxiv**](https://arxiv.org/abs/2411.16198) / [**Poster**](https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202025/34644.png?t=1748853080.0173087) / **[机器之心](https://mp.weixin.qq.com/s/QVMua-5RGfSJzH-_tv_gRA)** / [**知乎**](https://zhuanlan.zhihu.com/p/1911811661062452785)
 
 IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR 2025),  
 <strong><font color=red>Highlight paper (387/13008, 2.98%)</font></strong>
