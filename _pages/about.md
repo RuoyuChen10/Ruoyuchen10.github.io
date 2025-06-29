@@ -47,8 +47,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence,
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/LIMA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Less is More: Efficient Black-box Attribution via Minimal Interpretable Subset Selection](https://arxiv.org/abs/2504.00470)
-
+[Less is More: Efficient Black-box Attribution via Minimal Interpretable Subset Selection](https://arxiv.org/abs/2504.00470)  
 **Ruoyu Chen**, Siyuan Liang, Jingzhi Li, Shiming Liu, Li Liu, Hua Zhang, and Xiaochun Cao
 
 [**Code**](https://github.com/RuoyuChen10/LIMA) ![Star](https://img.shields.io/github/stars/RuoyuChen10/LIMA.svg?style=social&label=Star) / [**Arxiv**](https://arxiv.org/abs/2504.00470) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
@@ -76,8 +75,7 @@ IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR 2025),
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024 Oral</div><img src='images/SMDL-Attribution.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Less is More: Fewer Interpretable Region via Submodular Subset Selection](https://openreview.net/forum?id=jKTUlxo5zy)
-
+[Less is More: Fewer Interpretable Region via Submodular Subset Selection](https://openreview.net/forum?id=jKTUlxo5zy)  
 **Ruoyu Chen**, Hua Zhang, Siyuan Liang, Jingzhi Li, and Xiaochun Cao
 
 [**Code**](https://github.com/RuoyuChen10/SMDL-Attribution) ![Star](https://img.shields.io/github/stars/RuoyuChen10/SMDL-Attribution.svg?style=social&label=Star) / [**Paper**](https://openreview.net/pdf?id=jKTUlxo5zy) / [**Slide**](https://iclr.cc/media/iclr-2024/Slides/19733.pdf) / [**Poster**](https://ruoyuchen10.github.io/slide/2053-poster.png) /  [**AI Time Presentation**](https://ruoyuchen10.github.io/slide/AITime_less-is-more.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
@@ -89,8 +87,7 @@ International Conference on Learning Representations (ICLR),
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM TOMM 2023</div><img src='images/sim2word.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Sim2Word: Explaining Similarity with Representative Attribute Words via Counterfactual Explanations](https://dl.acm.org/doi/abs/10.1145/3563039)
-
+[Sim2Word: Explaining Similarity with Representative Attribute Words via Counterfactual Explanations](https://dl.acm.org/doi/abs/10.1145/3563039)  
 **Ruoyu Chen**, Jingzhi Li, Hua Zhang, Changchong Sheng, Li Liu, and Xiaochun Cao
 
 [**Code**](https://github.com/RuoyuChen10/Sim2Word) ![Star](https://img.shields.io/github/stars/RuoyuChen10/Sim2Word.svg?style=social&label=Star) / [**Paper**](https://dl.acm.org/doi/abs/10.1145/3563039) / [**Poster**](https://ruoyuchen10.github.io/slide/Sim2Word_TOMMCAP2022.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
@@ -103,8 +100,7 @@ ACM Transactions on Multimedia Computing, Communications, and Applications,
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Poultry Science 2023</div><img src='images/duck.gif' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Online Estimating Weight of White Pekin Duck Carcass by Computer Vision](https://doi.org/10.1016/j.psj.2022.102348)
-
+[Online Estimating Weight of White Pekin Duck Carcass by Computer Vision](https://doi.org/10.1016/j.psj.2022.102348)  
 **Ruoyu Chen**, Yuliang Zhao, Yongliang Yang, Shuyu Wang, Lianjiang Li, Xiaopeng Sha, Lianqing Liu, Guanglie Zhang and Wen Jung Li
 
 [**Code**](https://github.com/RuoyuChen10/Image_weighing) ![Star](https://img.shields.io/github/stars/RuoyuChen10/Image_weighing.svg?style=social&label=Star) / [**Paper**](https://doi.org/10.1016/j.psj.2022.102348) / [**Poster**](https://ruoyuchen10.github.io/slide/Image_Weighing_PoultrySci.2022.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
