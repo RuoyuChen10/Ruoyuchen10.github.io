@@ -112,6 +112,20 @@ Poultry Science (Top Journal in Agricultural and Biological Sciences),
 
 # 📝 Collaboration Papers 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/faceinsight.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[FaceInsight: A Multimodal Large Language Model for Face Perception](https://arxiv.org/abs/2504.15624)
+
+Jingzhi Li, Changjiang Luo, **Ruoyu Chen**, Hua Zhang, Wenqi Ren, Jianhou Gan, and Xiaochun Cao
+
+[**Arxiv**](https://arxiv.org/abs/2504.15624) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+ACM MM 2025,  
+MLLMs for Face Perception.
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE IOT 2025</div><img src='images/iot_badminton.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [An Intelligent Badminton Handle with Multi-Node MEMS Sensors for Explainable Motion Recognition](https://ieeexplore.ieee.org/document/11038925/authors#authors)
@@ -149,21 +163,6 @@ Zihan Gu, Han Zhang, **Ruoyu Chen**, Yue Hu, Hua Zhang
 
 Preprint,  
 Positional Encoding Mechanism.
-</div>
-</div>
-
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/faceinsight.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-[FaceInsight: A Multimodal Large Language Model for Face Perception](https://arxiv.org/abs/2504.15624)
-
-Jingzhi Li, Changjiang Luo, **Ruoyu Chen**, Hua Zhang, Wenqi Ren, Jianhou Gan, and Xiaochun Cao
-
-[**Arxiv**](https://arxiv.org/abs/2504.15624) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-
-Preprint,  
-MLLMs for Face Perception.
 </div>
 </div>
 
