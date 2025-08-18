@@ -224,14 +224,21 @@ Ranking: 2/119
 
 ### Journal Reviewer
 
-- [IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) x11
-- [IEEE Transactions on Biometrics, Behavior, and Identity Science (T-BIOM)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8423754) x3
+- IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)
+- IEEE Transactions on Biometrics, Behavior, and Identity Science (T-BIOM)
+- Pattern Recognition
+- Knowledge-based Systems
 
 ### Conference Reviewer
 
-- CVPR 23, 24
+- CVPR 23, 24, 25
 - ICLR 24
-- NeurIPS 23, 24
-- ICML 23, 24
+- NeurIPS 23, 24, NeurIPS 25 Datasets and Benchmarks Track
+- ICML 23, 24, 25
 - ICCV 23
 - ECCV 22, 24
+- AAAI 2026, AAAI 2026 AI Alignment Track
+- ACM MM 25
+- The 3rd Workshop for Out-of-Distribution Generalization in Computer Vision Foundation Models
+- COLM 2025 Workshop XLLM-Reason-Plan
+- The 1st MICCAI Workshop on Human-AI Collaboration
