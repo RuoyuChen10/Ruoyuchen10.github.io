@@ -17,11 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, a Ph.D. candidate in Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS), under the tutelage of [Prof. Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en) (currently the Dean of School of Cyber Science and Technology, Sun Yat-sen University) and [Hua Zhang](https://scholar.google.com/citations?user=KYifAy8AAAAJ&hl=en) (Professor at IIE, CAS). I received my B.E. degree from Northeastern University, China. My research interests include <u><i>Interpretable AI</i></u> and <u><i>Foundation Model</i></u>. 
+I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, a Ph.D. candidate in Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS), working with [Prof. Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en) (currently the Dean of School of Cyber Science and Technology, Sun Yat-sen University) and [Hua Zhang](https://scholar.google.com/citations?user=KYifAy8AAAAJ&hl=en) (Professor at IIE, CAS). I received my B.E. degree from Northeastern University, China. My research interests include <u><i>Interpretable AI</i></u> and <u><i>Foundation Model</i></u>. 
 
 I'm committed to making XAI meaningful and actually helping us with AI systems. Including in the <u><i>model testing phase</i></u>, building an interpretation method for debugging the model to help us discover potential biases and errors in the model. In the <u><i>model training phase</i></u>, specific defects are discovered through interpretability, and a reasonable feedback mechanism is designed to enable the model to automatically repair errors to improve model performance and generalization, while making the training process transparent. In the <u><i>model deployment phase</i></u>, improve the explanation of the model and study the human-computer interaction or AI agent processes in dynamic environments.
 
-**I am actively seeking a postdoctoral position** and would welcome the opportunity to discuss potential collaborations, especially in the fields of **Trustworthy AI** and **Foundation Model**. Please don’t hesitate to get in touch if my research interests you.
+**I am open for collaborations in research**, especially in the fields of **Trustworthy AI** and **Foundation Model**. Please don’t hesitate to get in touch if my research interests you.
 
 
 # 🔥 News
@@ -218,7 +218,7 @@ Ranking: 2/119
 - *2024.5.10* Give an **oral presentation** in Vienna at ICLR 24 conference ([**Slide**](https://iclr.cc/media/iclr-2024/Slides/19733.pdf))
 - *2024.2.28* Share a ICLR 24 paper "[Less is More: Fewer Interpretable Region via Submodular Subset Selection](https://ruoyuchen10.github.io/slide/AITime_less-is-more.pdf)" at **AI Time**
 - *2023.12.26* Taught the undergraduate course "[Explainable Artificial Intelligence](https://ruoyuchen10.github.io/talk/Ruoyu_Chen-Teaching-XAI_SYSU.pdf)" at **Shenzhen Campus of Sun Yat-sen University**
-- *2023.10.20* Share a technical review "[Survey on the interpretability of foundation models](https://ruoyuchen10.github.io/talk/Ruoyu_Chen-Interpretation_of_foundation_model.pdf)" at **Huawei**
+- *2023.10.20* Share a technical review "[Survey on the interpretability of foundation models](https://ruoyuchen10.github.io/talk/Ruoyu_Chen-Interpretation_of_foundation_model.pdf)"
 
 # 💬 Professional Service
 
