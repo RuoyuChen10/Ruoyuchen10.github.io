@@ -23,7 +23,6 @@ I'm committed to making XAI meaningful and actually helping us with AI systems. 
 
 **I am open for collaborations in research**, especially in the fields of **Trustworthy AI** and **Foundation Model**. Please don’t hesitate to get in touch if my research interests you.
 
-
 # 🔥 News
 - *2025.04.09*: 🎉🎉 One paper is accepted by **T-PAMI**!
 - *2025.04.06*: 🎉🎉 VPS was selected as the **Highlight paper** of CVPR 2025.
@@ -47,7 +46,15 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence,
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/LIMA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Less is More: Efficient Black-box Attribution via Minimal Interpretable Subset Selection](https://arxiv.org/abs/2504.00470)  
+[Less is More: Efficient Black-box Attribution via Minimal Interpretable Subset Selection](https://arxiv.org/abs/2504.00470) <span style="
+    background-color:#c86bda;
+    border-radius:25px;
+    color:white;
+    padding:2px 8px;
+    font-size:12px;
+    font-weight:bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+">Interpretable AI</span>  
 **Ruoyu Chen**, Siyuan Liang, Jingzhi Li, Shiming Liu, Li Liu, Hua Zhang, and Xiaochun Cao
 
 [**Code**](https://github.com/RuoyuChen10/LIMA) ![Star](https://img.shields.io/github/stars/RuoyuChen10/LIMA.svg?style=social&label=Star) / [**Arxiv**](https://arxiv.org/abs/2504.00470) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
