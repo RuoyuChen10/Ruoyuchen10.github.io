@@ -34,7 +34,15 @@ I'm committed to making XAI meaningful and actually helping us with AI systems. 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2025</div><img src='images/CCL-FSOD.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Generalized Semantic Contrastive Learning via Embedding Side Information for Few-Shot Object Detection](https://ieeexplore.ieee.org/document/10963743)  
+[Generalized Semantic Contrastive Learning via Embedding Side Information for Few-Shot Object Detection](https://ieeexplore.ieee.org/document/10963743) <span style="
+    background-color:#c86bda;
+    border-radius:25px;
+    color:white;
+    padding:2px 8px;
+    font-size:14px;
+    font-weight:bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+">XAI</span>  
 **Ruoyu Chen**, Hua Zhang, Jingzhi Li, Li Liu, Zhen Huang, and Xiaochun Cao
 
 [**Code**](https://github.com/RuoyuChen10/CCL-FSOD) ![Star](https://img.shields.io/github/stars/RuoyuChen10/CCL-FSOD.svg?style=social&label=Star) / [**Paper**](https://ieeexplore.ieee.org/document/10963743) / [**Arxiv**](https://arxiv.org/abs/2504.07060) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
@@ -51,11 +59,12 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence,
     border-radius:25px;
     color:white;
     padding:2px 8px;
-    font-size:12px;
+    font-size:14px;
     font-weight:bold;
     box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
-">Interpretable AI</span>  
+">XAI</span>  
 **Ruoyu Chen**, Siyuan Liang, Jingzhi Li, Shiming Liu, Li Liu, Hua Zhang, and Xiaochun Cao
+
 
 [**Code**](https://github.com/RuoyuChen10/LIMA) ![Star](https://img.shields.io/github/stars/RuoyuChen10/LIMA.svg?style=social&label=Star) / [**Arxiv**](https://arxiv.org/abs/2504.00470) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
@@ -68,7 +77,15 @@ Black-box attribution.
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 Highlight</div><img src='images/VPS.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Interpreting Object-level Foundation Models via Visual Precision Search](https://arxiv.org/abs/2411.16198)  
+[Interpreting Object-level Foundation Models via Visual Precision Search](https://arxiv.org/abs/2411.16198) <span style="
+    background-color:#c86bda;
+    border-radius:25px;
+    color:white;
+    padding:2px 8px;
+    font-size:14px;
+    font-weight:bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+">XAI</span>  
 **Ruoyu Chen**, Siyuan Liang, Jingzhi Li, Shiming Liu, Maosen Li, Zheng Huang, Hua Zhang, and Xiaochun Cao
 
 [**Code**](https://github.com/RuoyuChen10/VPS) ![Star](https://img.shields.io/github/stars/RuoyuChen10/VPS.svg?style=social&label=Star) / **[Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_Interpreting_Object-level_Foundation_Models_via_Visual_Precision_Search_CVPR_2025_paper.pdf)** / [**Arxiv**](https://arxiv.org/abs/2411.16198) / [**Poster**](https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202025/34644.png?t=1748853080.0173087) / **[Slide](https://cvpr.thecvf.com/media/cvpr-2025/Slides/34644.pdf)** / **[机器之心](https://mp.weixin.qq.com/s/QVMua-5RGfSJzH-_tv_gRA)** / [**知乎**](https://zhuanlan.zhihu.com/p/1911811661062452785) / **[CVPR 25 Page](https://cvpr.thecvf.com/virtual/2025/poster/34644)**
@@ -82,7 +99,15 @@ IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR 2025),
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024 Oral</div><img src='images/SMDL-Attribution.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Less is More: Fewer Interpretable Region via Submodular Subset Selection](https://openreview.net/forum?id=jKTUlxo5zy)  
+[Less is More: Fewer Interpretable Region via Submodular Subset Selection](https://openreview.net/forum?id=jKTUlxo5zy) <span style="
+    background-color:#c86bda;
+    border-radius:25px;
+    color:white;
+    padding:2px 8px;
+    font-size:14px;
+    font-weight:bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+">XAI</span>  
 **Ruoyu Chen**, Hua Zhang, Siyuan Liang, Jingzhi Li, and Xiaochun Cao
 
 [**Code**](https://github.com/RuoyuChen10/SMDL-Attribution) ![Star](https://img.shields.io/github/stars/RuoyuChen10/SMDL-Attribution.svg?style=social&label=Star) / [**Paper**](https://openreview.net/pdf?id=jKTUlxo5zy) / [**Slide**](https://iclr.cc/media/iclr-2024/Slides/19733.pdf) / [**Poster**](https://ruoyuchen10.github.io/slide/2053-poster.png) /  [**AI Time Presentation**](https://ruoyuchen10.github.io/slide/AITime_less-is-more.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
@@ -94,7 +119,15 @@ International Conference on Learning Representations (ICLR),
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM TOMM 2023</div><img src='images/sim2word.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Sim2Word: Explaining Similarity with Representative Attribute Words via Counterfactual Explanations](https://dl.acm.org/doi/abs/10.1145/3563039)  
+[Sim2Word: Explaining Similarity with Representative Attribute Words via Counterfactual Explanations](https://dl.acm.org/doi/abs/10.1145/3563039) <span style="
+    background-color:#c86bda;
+    border-radius:25px;
+    color:white;
+    padding:2px 8px;
+    font-size:14px;
+    font-weight:bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+">XAI</span>  
 **Ruoyu Chen**, Jingzhi Li, Hua Zhang, Changchong Sheng, Li Liu, and Xiaochun Cao
 
 [**Code**](https://github.com/RuoyuChen10/Sim2Word) ![Star](https://img.shields.io/github/stars/RuoyuChen10/Sim2Word.svg?style=social&label=Star) / [**Paper**](https://dl.acm.org/doi/abs/10.1145/3563039) / [**Poster**](https://ruoyuchen10.github.io/slide/Sim2Word_TOMMCAP2022.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
