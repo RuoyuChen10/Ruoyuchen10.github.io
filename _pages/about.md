@@ -165,6 +165,19 @@ MLLMs for Face Perception.
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/VCOD.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Phantom-Insight: Adaptive Multi-cue Fusion for Video Camouflaged Object Detection with Multimodal LLM](https://arxiv.org/abs/2509.06422)
+
+Hua Zhang, Changjiang Luo, **Ruoyu Chen$^*$** ($*$: Corresponding author)
+
+[**Arxiv**](https://arxiv.org/abs/2509.06422) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+Preprint 2025,  
+MLLMs for Video Camouflaged Object Detection.
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE IOT 2025</div><img src='images/iot_badminton.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
