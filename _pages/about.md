@@ -43,10 +43,10 @@ I'm committed to making XAI meaningful and actually helping us with AI systems. 
     font-weight:bold;
     box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
 ">XAI</span><span style="
-    background-color:#c86bda;
-    border-radius:25px;
+    background-color:#22C55E;
+    border-radius:22px;
     color:white;
-    padding:2px 10px;
+    padding:2px 4px;
     font-size:14px;
     font-weight:bold;
     box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
@@ -54,6 +54,7 @@ I'm committed to making XAI meaningful and actually helping us with AI systems. 
 MLLM
 </span>  
 **Ruoyu Chen**, Xiaoqing Guo, Kangwei Liu, Siyuan Liang, Shiming Liu, Qunli Zhang, Hua Zhang, and Xiaochun Cao
+
 
 
 [**Code**](https://github.com/RuoyuChen10/EAGLE) ![Star](https://img.shields.io/github/stars/RuoyuChen10/EAGLE.svg?style=social&label=Star) / [**Project Page**](https://ruoyuchen10.github.io/EAGLE) / [**Arxiv**](https://arxiv.org/abs/2509.22496) 
@@ -188,7 +189,18 @@ Poultry Science (Top Journal in Agricultural and Biological Sciences),
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/faceinsight.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[FaceInsight: A Multimodal Large Language Model for Face Perception](https://arxiv.org/abs/2504.15624)
+[FaceInsight: A Multimodal Large Language Model for Face Perception](https://arxiv.org/abs/2504.15624)<span style="
+    background-color:#22C55E;
+    border-radius:22px;
+    color:white;
+    padding:2px 4px;
+    font-size:14px;
+    font-weight:bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+">
+MLLM
+</span>  
+
 
 Jingzhi Li, Changjiang Luo, **Ruoyu Chen**, Hua Zhang, Wenqi Ren, Jianhou Gan, and Xiaochun Cao
 
@@ -201,7 +213,17 @@ MLLMs for Face Perception.
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/VCOD.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Phantom-Insight: Adaptive Multi-cue Fusion for Video Camouflaged Object Detection with Multimodal LLM](https://arxiv.org/abs/2509.06422)
+[Phantom-Insight: Adaptive Multi-cue Fusion for Video Camouflaged Object Detection with Multimodal LLM](https://arxiv.org/abs/2509.06422)<span style="
+    background-color:#22C55E;
+    border-radius:22px;
+    color:white;
+    padding:2px 4px;
+    font-size:14px;
+    font-weight:bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+">
+MLLM
+</span>  
 
 Hua Zhang, Changjiang Luo, **Ruoyu Chen$^*$** ($*$: Corresponding author)
 
