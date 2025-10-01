@@ -32,6 +32,30 @@ I'm committed to making XAI meaningful and actually helping us with AI systems. 
 
 # 📝 Selected Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/EAGLE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Where MLLMs Attend and What They Rely On: Explaining Autoregressive Token Generation](https://arxiv.org/abs/2509.22496) <span style="
+    background-color:#c86bda;
+    border-radius:25px;
+    color:white;
+    padding:2px 8px;
+    font-size:14px;
+    font-weight:bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+">XAI</span>  
+**Ruoyu Chen**, Xiaoqing Guo, Kangwei Liu, Siyuan Liang, Shiming Liu, Qunli Zhang, Hua Zhang, and Xiaochun Cao
+
+
+[**Code**](https://github.com/RuoyuChen10/EAGLE) ![Star](https://img.shields.io/github/stars/RuoyuChen10/EAGLE.svg?style=social&label=Star) / [**Arxiv**](https://arxiv.org/abs/2509.22496) 
+
+Preprint,  
+A state-of-the-art approach to explain autoregressive generation in large multimodal language models.
+</div>
+</div>
+
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2025</div><img src='images/CCL-FSOD.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Generalized Semantic Contrastive Learning via Embedding Side Information for Few-Shot Object Detection](https://ieeexplore.ieee.org/document/10963743) <span style="
