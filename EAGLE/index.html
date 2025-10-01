@@ -1,6 +1,71 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <title>Where MLLMs Attend and What They Rely On: Explaining Autoregressive Token Generation</title>
+
+    <!-- 视口：覆盖安全区，避免刘海遮挡 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <!-- 防止 iOS/微信自动放大字体 -->
+    <style>
+      html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+      html, body { margin:0; padding:0; }
+      html { box-sizing: border-box; }
+      *, *::before, *::after { box-sizing: inherit; }
+
+      /* 媒体元素自适应，解决“图片把页面撑爆” */
+      img, video, canvas { max-width:100%; height:auto; display:block; }
+
+      /* Flex 子项在微信里不收缩的问题（关键） */
+      .flex-row > * { min-width: 0; }
+
+      /* 表格/标签行在小屏横向滚动 */
+      .table-wrap, .tokens-row { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+
+      /* 视口高度在 iOS 100vh 的兼容（可按需加到需要占满高度的容器） */
+      .full-viewport { min-height: 100dvh; }
+    </style>
+
+    <!-- 字体加载优化 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+    <!-- 框架样式（建议二选一；若必须共存，尽量减少 Bootstrap 影响或局部化类名） -->
+    <link rel="stylesheet" href="./static/css/bulma.min.css?v=20251002">
+    <!-- 如果必须用 Bootstrap，请放在 Bulma 之前或只按需引入，并注意冲突：
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    -->
+
+    <!-- 组件样式 -->
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css?v=20251002">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css?v=20251002">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css?v=20251002">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+    <!-- 你自己的覆盖样式最后加载 -->
+    <link rel="stylesheet" href="./static/css/index.css?v=20251002">
+
+    <link rel="icon" href="./favicon.ico">
+
+    <!-- 建议把大多数脚本放到 </body> 前并使用 defer；MathJax 可 async -->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js?v=20251002"></script>
+    <script defer src="./static/js/bulma-carousel.min.js?v=20251002"></script>
+    <script defer src="./static/js/bulma-slider.min.js?v=20251002"></script>
+    <script defer src="./static/js/index.js?v=20251002"></script>
+
+    <script async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+    <!-- 分享图尺寸元数据（可保留） -->
+    <meta property="og:image:width" content="1600">
+    <meta property="og:image:height" content="900">
+  </head>
+  <!-- <head>
     <title>Where MLLMs Attend and What They Rely On: Explaining Autoregressive Token Generation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link
@@ -35,7 +100,7 @@
     ></script>
     <meta property="og:image:width" content="1600" />
     <meta property="og:image:height" content="900" />
-  </head>
+  </head> -->
   <body>
     <section class="hero">
       <div class="hero-body no-bottom-padding">
