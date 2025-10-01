@@ -2,6 +2,24 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+img, video, canvas {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.examples-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+@media (max-width: 768px) {
+  .examples-row { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
+  .examples-row { grid-template-columns: 1fr; }
+}
+
 .footer .icon-link {
   font-size: 25px;
   color: #000;
@@ -40,9 +58,11 @@ body {
 }
 
 .slideshow-container {
+  width: 100%;
   max-width: 2000px;
   position: relative;
   margin: auto;
+  overflow: hidden;
 }
 
 .mySlides0 {
