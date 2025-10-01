@@ -46,7 +46,7 @@ I'm committed to making XAI meaningful and actually helping us with AI systems. 
 **Ruoyu Chen**, Xiaoqing Guo, Kangwei Liu, Siyuan Liang, Shiming Liu, Qunli Zhang, Hua Zhang, and Xiaochun Cao
 
 
-[**Code**](https://github.com/RuoyuChen10/EAGLE) ![Star](https://img.shields.io/github/stars/RuoyuChen10/EAGLE.svg?style=social&label=Star) / [**Arxiv**](https://arxiv.org/abs/2509.22496) 
+[**Code**](https://github.com/RuoyuChen10/EAGLE) ![Star](https://img.shields.io/github/stars/RuoyuChen10/EAGLE.svg?style=social&label=Star) / [**Project Page**](https://ruoyuchen10.github.io/EAGLE) / [**Arxiv**](https://arxiv.org/abs/2509.22496) 
 
 Preprint,  
 A state-of-the-art approach to explain autoregressive generation in large multimodal language models.
