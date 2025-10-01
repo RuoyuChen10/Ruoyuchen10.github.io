@@ -42,7 +42,17 @@ I'm committed to making XAI meaningful and actually helping us with AI systems. 
     font-size:14px;
     font-weight:bold;
     box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
-">XAI</span>  
+">XAI</span><span style="
+    background-color:#c86bda;
+    border-radius:25px;
+    color:white;
+    padding:2px 10px;
+    font-size:14px;
+    font-weight:bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+">
+MLLM
+</span>  
 **Ruoyu Chen**, Xiaoqing Guo, Kangwei Liu, Siyuan Liang, Shiming Liu, Qunli Zhang, Hua Zhang, and Xiaochun Cao
 
 
