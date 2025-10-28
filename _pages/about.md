@@ -194,7 +194,7 @@ Poultry Science (Top Journal in Agricultural and Biological Sciences),
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/faceinsight.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[FaceInsight: A Multimodal Large Language Model for Face Perception](https://arxiv.org/abs/2504.15624) <span style="
+[FaceInsight: A Multimodal Large Language Model for Face Perception](https://dl.acm.org/doi/10.1145/3746027.3755634) <span style="
     background-color:#22C55E;
     border-radius:22px;
     color:white;
@@ -207,10 +207,9 @@ MLLM
 </span>  
 
 
-
 Jingzhi Li, Changjiang Luo, **Ruoyu Chen**, Hua Zhang, Wenqi Ren, Jianhou Gan, and Xiaochun Cao
 
-[**Arxiv**](https://arxiv.org/abs/2504.15624) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Paper**](https://dl.acm.org/doi/10.1145/3746027.3755634) / [**Arxiv**](https://arxiv.org/abs/2504.15624) 
 
 ACM MM 2025,  
 MLLMs for Face Perception.
