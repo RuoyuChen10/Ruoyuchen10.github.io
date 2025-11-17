@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, a Ph.D. candidate in Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS), working with [Prof. Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en) (currently the Dean of School of Cyber Science and Technology, Sun Yat-sen University). I received my B.E. degree from Northeastern University, China. My research interests include <u><i>Interpretable AI</i></u> and <u><i>Foundation Model</i></u>. 
+I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, a Ph.D. candidate in Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS), working with [Prof. Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en) (currently the Dean of School of Cyber Science and Technology, Sun Yat-sen University) and [Hua Zhang](https://scholar.google.com/citations?user=KYifAy8AAAAJ&hl=en). I received my B.E. degree from Northeastern University, China. My research interests include <u><i>Interpretable AI</i></u> and <u><i>Foundation Model</i></u>. 
 
 My research focuses on developing explainable attribution methods and their applications in multimodal foundation models and generative AI. Specifically: **(1) Explainable Attribution Technology**: Proposed faithful attribution mechanisms to interpret models across scales. **(2) Explanation-guided Learning**: Designed attribution-guided training frameworks and counterfactual augmentation methods. **(3) Multimodal Large Models**: In embodied (autonomous driving) and non-embodied (GUI agents) systems, or other applications of MLLMs.
 
@@ -216,6 +216,36 @@ MLLMs for Face Perception.
 </div>
 </div>
 
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/PhaseWin.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[PhaseWin Search Framework Enable Efficient Object-Level Interpretation](https://arxiv.org/abs/2511.10914) <span style="
+    background-color:#c86bda;
+    border-radius:25px;
+    color:white;
+    padding:2px 8px;
+    font-size:14px;
+    font-weight:bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+">
+Efficient XAI
+</span>  
+
+Zihan Gu, **Ruoyu Chen**, Junchi Zhang, Yue Hu, Hua Zhang, and Xiaochun Cao
+
+[**Arxiv**](https://arxiv.org/abs/2511.10914)
+
+Preprint 2025,  
+Efficient Submodular Subset Selection Attribution Framework
+</div>
+</div>
+
+
+
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/VCOD.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Phantom-Insight: Adaptive Multi-cue Fusion for Video Camouflaged Object Detection with Multimodal LLM](https://arxiv.org/abs/2509.06422) <span style="
@@ -231,7 +261,7 @@ MLLM
 </span>  
 
 
-Hua Zhang, Changjiang Luo, **Ruoyu Chen$^*$** ($*$: Corresponding author)
+Hua Zhang, Changjiang Luo, **Ruoyu Chen$^\*$** ($*$: Corresponding author)
 
 [**Arxiv**](https://arxiv.org/abs/2509.06422) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
