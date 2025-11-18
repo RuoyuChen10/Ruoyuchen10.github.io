@@ -192,6 +192,8 @@ Poultry Science (Top Journal in Agricultural and Biological Sciences),
 
 # 📝 Collaboration Papers 
 
+$\dagger$ denotes equal contribiton, * denotes corresponding author
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/faceinsight.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [FaceInsight: A Multimodal Large Language Model for Face Perception](https://dl.acm.org/doi/10.1145/3746027.3755634) <span style="
