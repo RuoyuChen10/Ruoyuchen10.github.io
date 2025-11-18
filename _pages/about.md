@@ -192,7 +192,7 @@ Poultry Science (Top Journal in Agricultural and Biological Sciences),
 
 # 📝 Collaboration Papers 
 
-$\dagger$ denotes equal contribiton, * denotes corresponding author
+$\dagger$ denotes equal contribiton, $\spadesuit$ denotes project leader, * denotes corresponding author
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/faceinsight.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -232,7 +232,7 @@ MLLMs for Face Perception.
 XAI
 </span>  
 
-Yannan Chen, **Ruoyu Chen$^{\dagger}$**, Bin Zeng, Wei Wang, Shiming Liu, Qunli Zhang, Zheng Hu, Laiyuan Wang, Yaowei Wang, and Xiaochun Cao
+Yannan Chen$^{\dagger}$, **Ruoyu Chen$^{\spadesuit,\dagger}$**, Bin Zeng, Wei Wang, Shiming Liu, Qunli Zhang, Zheng Hu, Laiyuan Wang, Yaowei Wang, and Xiaochun Cao
 
 [**Arxiv**](https://arxiv.org/abs/2511.12100)
 
@@ -256,7 +256,7 @@ Attribution-guided Data Augmentation Framework
 Efficient XAI
 </span>  
 
-Zihan Gu, **Ruoyu Chen**, Junchi Zhang, Yue Hu, Hua Zhang, and Xiaochun Cao
+Zihan Gu, **Ruoyu Chen$^{\spadesuit}$**, Junchi Zhang, Yue Hu, Hua Zhang, and Xiaochun Cao
 
 [**Arxiv**](https://arxiv.org/abs/2511.10914)
 
@@ -285,7 +285,7 @@ MLLM
 </span>  
 
 
-Hua Zhang, Changjiang Luo, **Ruoyu Chen$^\*$** ($*$: Corresponding author)
+Hua Zhang, Changjiang Luo, **Ruoyu Chen$^\*$**
 
 [**Arxiv**](https://arxiv.org/abs/2509.06422) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
