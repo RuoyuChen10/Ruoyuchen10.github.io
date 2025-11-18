@@ -216,6 +216,28 @@ MLLMs for Face Perception.
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/SSCA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Did Models Sufficient Learn? Attribution-Guided Training via Subset-Selected Counterfactual Augmentation](https://arxiv.org/abs/2511.12100) <span style="
+    background-color:#c86bda;
+    border-radius:25px;
+    color:white;
+    padding:2px 8px;
+    font-size:14px;
+    font-weight:bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+">
+XAI
+</span>  
+
+Yannan Chen, **Ruoyu Chen$^{\dagger}$**, Bin Zeng, Wei Wang, Shiming Liu, Qunli Zhang, Zheng Hu, Laiyuan Wang, Yaowei Wang, and Xiaochun Cao
+
+[**Arxiv**](https://arxiv.org/abs/2511.12100)
+
+Preprint 2025,  
+Attribution-guided Data Augmentation Framework
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/PhaseWin.png' alt="sym" width="100%"></div></div>
