@@ -373,31 +373,31 @@ Jingzhi Li, Lutong Han, **Ruoyu Chen**, Hua Zhang, Bing Han, Lili Wang, and Xiao
 
 
 # 📖 Educations
-<table>
- <tr>
-  <td width="120" align="center">
-      <img src="assets/ucas.jpg" width="90"/>
-  </td>
-  <td>
-   <b>University of Chinese Academy of Sciences (UCAS), China</b><br>
-   Ph.D. in Computer Application Technology<br>
-   Aug. 2021 – Jun. 2026 (except)<br>
-  </td>
- </tr>
+<table style="border:none;border-collapse:collapse;" cellspacing="0" cellpadding="0">
+  <tr style="border:none;">
+    <td width="120" align="center" style="border:none; padding:0 16px 0 0;">
+      <img src="assets/ucas.jpg" width="90" />
+    </td>
+    <td style="border:none; padding:0;">
+      <b>University of Chinese Academy of Sciences (UCAS), China</b><br>
+      Ph.D. in Computer Application Technology<br>
+      Aug. 2021 – Jun. 2026<br>
+    </td>
+  </tr>
 </table>
 
-<table>
- <tr>
-  <td width="120" align="center">
-      <img src="assets/neu.png" width="90"/>
-  </td>
-  <td>
-   <b>Northeastern University, China</b><br>
-   Bachelor in Measurement and Control Technology and Instrumentation<br>
-   Aug. 2017 – Jun. 2021<br>
-   <b>GPA: </b>4.2/5.0, <b>Ranking: </b>2/119
-  </td>
- </tr>
+<table style="border:none;border-collapse:collapse; margin-top:10px;" cellspacing="0" cellpadding="0">
+  <tr style="border:none;">
+    <td width="120" align="center" style="border:none; padding:0 16px 0 0;">
+      <img src="assets/neu.png" width="90" />
+    </td>
+    <td style="border:none; padding:0;">
+      <b>Northeastern University, China</b><br>
+      Bachelor in Measurement and Control Technology and Instrumentation<br>
+      Aug. 2017 – Jun. 2021<br>
+      <b>GPA:</b> 4.2/5.0, <b>Ranking:</b> 2/119
+    </td>
+  </tr>
 </table>
 
 # 🎤 Talking and Teaching
