@@ -379,23 +379,26 @@ Jingzhi Li, Lutong Han, **Ruoyu Chen**, Hua Zhang, Bing Han, Lili Wang, and Xiao
       <img src="assets/ucas.jpg" width="90"/>
   </td>
   <td>
-   <b>University of Chinese Academy of Sciences (UCAS)</b><br>
-   PhD. in Computer Application Technology<br>
+   <b>University of Chinese Academy of Sciences (UCAS), China</b><br>
+   Ph.D. in Computer Application Technology<br>
    Aug. 2021 – Jun. 2026 (except)<br>
   </td>
  </tr>
 </table>
 
-
-
-
-- *2021.09 - 2026.06 (excepted)*,  
-  School of Cyberspace Security, University of Chinese Academy of Sciences, China.  
-  Ph.D. Candidate
-- *2017.09 - 2021.06*,  
-  School of Control Engineering, Northeastern University, China.  
-  Bachelor of Engineering  
-  Ranking: 2/119
+<table>
+ <tr>
+  <td width="120" align="center">
+      <img src="assets/neu.png" width="90"/>
+  </td>
+  <td>
+   <b>Northeastern University, China</b><br>
+   Bachelor in Measurement and Control Technology and Instrumentation<br>
+   Aug. 2017 – Jun. 2021<br>
+   <b>GPA: </b>4.2/5.0, <b>Ranking: </b>2/119
+  </td>
+ </tr>
+</table>
 
 # 🎤 Talking and Teaching
 - *2024.6.27* Share a talk with **Tokyo Institute of Technology** online: [Interpretation of the Foundation Model: Concepts, Challenges, and Applications](https://ruoyuchen10.github.io/slide/Ruoyu_Chen_UCAS-foundation_model_interpretation.pdf)
