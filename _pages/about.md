@@ -84,7 +84,6 @@ A state-of-the-art approach to explain autoregressive generation in large multim
     box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
 ">XAI</span>  
 **Ruoyu Chen**, Hua Zhang, Jingzhi Li, Li Liu, Zhen Huang, and Xiaochun Cao
-
 [**Code**](https://github.com/RuoyuChen10/CCL-FSOD) ![Star](https://img.shields.io/github/stars/RuoyuChen10/CCL-FSOD.svg?style=social&label=Star) / [**Paper**](https://ieeexplore.ieee.org/document/10963743) / [**Arxiv**](https://arxiv.org/abs/2504.07060) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 IEEE Transactions on Pattern Analysis and Machine Intelligence,  
@@ -374,13 +373,29 @@ Jingzhi Li, Lutong Han, **Ruoyu Chen**, Hua Zhang, Bing Han, Lili Wang, and Xiao
 
 
 # 📖 Educations
+<table>
+ <tr>
+  <td width="120" align="center">
+      <img src="assets/ucas.jpg" width="90"/>
+  </td>
+  <td>
+   <b>University of Chinese Academy of Sciences (UCAS)</b><br>
+   PhD. in Computer Application Technology<br>
+   Aug. 2021 – Jun. 2026 (except)<br>
+  </td>
+ </tr>
+</table>
+
+
+
+
 - *2021.09 - 2026.06 (excepted)*,  
-School of Cyberspace Security, University of Chinese Academy of Sciences, China.  
-Ph.D. Candidate
+  School of Cyberspace Security, University of Chinese Academy of Sciences, China.  
+  Ph.D. Candidate
 - *2017.09 - 2021.06*,  
-School of Control Engineering, Northeastern University, China.  
-Bachelor of Engineering  
-Ranking: 2/119
+  School of Control Engineering, Northeastern University, China.  
+  Bachelor of Engineering  
+  Ranking: 2/119
 
 # 🎤 Talking and Teaching
 - *2024.6.27* Share a talk with **Tokyo Institute of Technology** online: [Interpretation of the Foundation Model: Concepts, Challenges, and Applications](https://ruoyuchen10.github.io/slide/Ruoyu_Chen_UCAS-foundation_model_interpretation.pdf)
