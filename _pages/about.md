@@ -193,6 +193,20 @@ Poultry Science (Top Journal in Agricultural and Biological Sciences),
 
 $\dagger$ denotes equal contribiton, $\spadesuit$ denotes project leader, * denotes corresponding author
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/Position_encoder.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Deconstructing Positional Information: From Attention Logits to Training Biases](https://arxiv.org/abs/2505.13027)
+
+Zihan Gu, **Ruoyu Chen**, Han Zhang, Hua Zhang, Yue Hu
+
+[**Arxiv**](https://arxiv.org/abs/2505.13027) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+ICLR 2026,  
+Positional Encoding Mechanism.
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/faceinsight.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [FaceInsight: A Multimodal Large Language Model for Face Perception](https://dl.acm.org/doi/10.1145/3746027.3755634) <span style="
@@ -318,19 +332,6 @@ Zihan Gu$^\dagger$, **Ruoyu Chen$^{\dagger}$**, Hua Zhang, Yue Hu, and Xiaochun 
 
 Preprint,  
 Grokking Mechanism.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/Position_encoder.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-[Unpacking Positional Encoding in Transformers: A Spectral Analysis of Content-Position Coupling](https://arxiv.org/abs/2505.13027)
-
-Zihan Gu, Han Zhang, **Ruoyu Chen**, Yue Hu, Hua Zhang
-
-[**Arxiv**](https://arxiv.org/abs/2505.13027) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-
-Preprint,  
-Positional Encoding Mechanism.
 </div>
 </div>
 
