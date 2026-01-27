@@ -199,7 +199,7 @@ $\dagger$ denotes equal contribiton, $\spadesuit$ denotes project leader, * deno
 
 Zihan Gu, **Ruoyu Chen**, Han Zhang, Hua Zhang, Yue Hu
 
-[**Paper**](https://openreview.net/forum?id=D0u0glT060) / [**Arxiv**](https://arxiv.org/abs/2505.13027) 
+[**Code**](https://github.com/Qihuai27/Deposit-Pattern-Research) ![Star](https://img.shields.io/github/stars/Qihuai27/Deposit-Pattern-Research.svg?style=social&label=Star) /  [**Paper**](https://openreview.net/forum?id=D0u0glT060) / [**Arxiv**](https://arxiv.org/abs/2505.13027) 
 
 ICLR 2026,  
 Positional Encoding Mechanism.
