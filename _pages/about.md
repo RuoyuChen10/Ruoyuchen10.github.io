@@ -69,7 +69,7 @@ A state-of-the-art approach to explain autoregressive generation in large multim
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2025</div><img src='images/CCL-FSOD.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE T-PAMI 2025</div><img src='images/CCL-FSOD.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Generalized Semantic Contrastive Learning via Embedding Side Information for Few-Shot Object Detection](https://ieeexplore.ieee.org/document/10963743) <span style="
     background-color:#c86bda;
@@ -191,7 +191,7 @@ Poultry Science (Top Journal in Agricultural and Biological Sciences),
 
 $\dagger$ denotes equal contribiton, $\spadesuit$ denotes project leader, * denotes corresponding author
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-IP 2026</div><img src='images/C2MFuse.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE T-IP 2026</div><img src='images/C2MFuse.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Disentangle to Fuse: Towards Content Preservation and Cross-Modality Consistency for Multi-Modality Image Fusion](https://ieeexplore.ieee.org/document/11369865)  
 Xinran Qin, Yuning Cui, Shangquan Sun, **Ruoyu Chen**, Wenqi Ren, Alois Knoll, and Xiaochun Cao
