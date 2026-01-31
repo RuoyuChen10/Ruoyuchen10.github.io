@@ -81,6 +81,7 @@ A state-of-the-art approach to explain autoregressive generation in large multim
     box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
 ">XAI</span>  
 **Ruoyu Chen**, Hua Zhang, Jingzhi Li, Li Liu, Zhen Huang, and Xiaochun Cao
+
 [**Code**](https://github.com/RuoyuChen10/CCL-FSOD) ![Star](https://img.shields.io/github/stars/RuoyuChen10/CCL-FSOD.svg?style=social&label=Star) / [**Paper**](https://ieeexplore.ieee.org/document/10963743) / [**Arxiv**](https://arxiv.org/abs/2504.07060) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 IEEE Transactions on Pattern Analysis and Machine Intelligence,  
@@ -194,6 +195,7 @@ $\dagger$ denotes equal contribiton, $\spadesuit$ denotes project leader, * deno
 <div class='paper-box-text' markdown="1">
 [Disentangle to Fuse: Towards Content Preservation and Cross-Modality Consistency for Multi-Modality Image Fusion](https://ieeexplore.ieee.org/document/11369865)  
 Xinran Qin, Yuning Cui, Shangquan Sun, **Ruoyu Chen**, Wenqi Ren, Alois Knoll, and Xiaochun Cao
+
 [**Paper**](https://ieeexplore.ieee.org/document/11369865)
 
 IEEE Transactions on Image Processing,  
