@@ -69,6 +69,38 @@ A state-of-the-art approach to explain autoregressive generation in large multim
 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='images/prior_alignment.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Where Not to Learn: Prior-Aligned Training with Subset-based Attribution Constraints for Reliable Decision-Making](https://arxiv.org/abs/2602.07008) <span style="
+    background-color:#c86bda;
+    border-radius:25px;
+    color:white;
+    padding:2px 8px;
+    font-size:14px;
+    font-weight:bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+">XAI</span> <span style="
+    background-color:#22C55E;
+    border-radius:22px;
+    color:white;
+    padding:2px 4px;
+    font-size:14px;
+    font-weight:bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+">
+MLLM
+</span>  
+**Ruoyu Chen**, Shangquan Sun, Xiaoqing Guo, Sanyi Zhang, Kangwei Liu, Shiming Liu, Zhangcheng Wang, Qunli Zhang, Hua Zhang, and Xiaochun Cao
+
+[**Arxiv**](https://arxiv.org/abs/2602.07008) 
+
+Preprint,  
+Train with subset-based attribution constraints to follow human priors, boosting both performance and decision reasonability.
+</div>
+</div>
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE T-PAMI 2025</div><img src='images/CCL-FSOD.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Generalized Semantic Contrastive Learning via Embedding Side Information for Few-Shot Object Detection](https://ieeexplore.ieee.org/document/10963743) <span style="
