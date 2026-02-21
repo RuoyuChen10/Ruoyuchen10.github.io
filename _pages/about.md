@@ -28,7 +28,7 @@ I'm committed to making XAI meaningful and actually helping us with AI systems. 
 <strong style="color:red;">I will complete my Ph.D. in June 2026 and am actively seeking postdoctoral opportunities. Please feel free to contact me.</strong>
 
 # 🔥 News
-- *2025.04.09*: 🎉🎉 Two papers (one first author) is accepted by **CVPR 2026**!
+- *2026.02.21*: 🎉🎉 Two papers (one first author) is accepted by **CVPR 2026**!
 - *2025.04.09*: One paper is accepted by **T-PAMI**!
 - *2025.04.06*: VPS was selected as the **Highlight paper** of CVPR 2025.
 - *2025.02.28*: One paper is accepted by **CVPR 2025**! 
