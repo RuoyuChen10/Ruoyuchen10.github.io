@@ -28,15 +28,16 @@ I'm committed to making XAI meaningful and actually helping us with AI systems. 
 <strong style="color:red;">I will complete my Ph.D. in June 2026 and am actively seeking postdoctoral opportunities. Please feel free to contact me.</strong>
 
 # 🔥 News
-- *2025.04.09*: 🎉🎉 One paper is accepted by **T-PAMI**!
-- *2025.04.06*: 🎉🎉 VPS was selected as the **Highlight paper** of CVPR 2025.
+- *2025.04.09*: 🎉🎉 Two papers (one first author) is accepted by **CVPR 2026**!
+- *2025.04.09*: One paper is accepted by **T-PAMI**!
+- *2025.04.06*: VPS was selected as the **Highlight paper** of CVPR 2025.
 - *2025.02.28*: One paper is accepted by **CVPR 2025**! 
 - *2024.01.16*: One paper is accepted by **ICLR 2024 Oral**! 
 - *2023.05*: Created a new home page. 
 
 # 📝 Selected Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/EAGLE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/EAGLE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Where MLLMs Attend and What They Rely On: Explaining Autoregressive Token Generation](https://arxiv.org/abs/2509.22496) <span style="
     background-color:#c86bda;
@@ -57,11 +58,11 @@ I'm committed to making XAI meaningful and actually helping us with AI systems. 
 ">
 MLLM
 </span>  
-**Ruoyu Chen**, Xiaoqing Guo, Kangwei Liu, Siyuan Liang, Shiming Liu, Qunli Zhang, Hua Zhang, and Xiaochun Cao
+**Ruoyu Chen**, Xiaoqing Guo, Kangwei Liu, Siyuan Liang, Shiming Liu, Qunli Zhang, Laiyuan Wang, Hua Zhang, and Xiaochun Cao
 
 [**Code**](https://github.com/RuoyuChen10/EAGLE) ![Star](https://img.shields.io/github/stars/RuoyuChen10/EAGLE.svg?style=social&label=Star) / [**Project Page**](https://ruoyuchen10.github.io/EAGLE) / [**Arxiv**](https://arxiv.org/abs/2509.22496) 
 
-Preprint,  
+CVPR 2026,  
 A state-of-the-art approach to explain autoregressive generation in large multimodal language models.
 </div>
 </div>
@@ -223,6 +224,31 @@ Poultry Science (Top Journal in Agricultural and Biological Sciences),
 
 $\dagger$ denotes equal contribiton, $\spadesuit$ denotes project leader, * denotes corresponding author
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/PhaseWin.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[PhaseWin Search Framework Enable Efficient Object-Level Interpretation](https://arxiv.org/abs/2511.10914) <span style="
+    background-color:#c86bda;
+    border-radius:25px;
+    color:white;
+    padding:2px 8px;
+    font-size:14px;
+    font-weight:bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+">
+Efficient XAI
+</span>  
+
+Zihan Gu, **Ruoyu Chen$^{\spadesuit}$**, Junchi Zhang, Yue Hu, Hua Zhang, and Xiaochun Cao
+
+[**Arxiv**](https://arxiv.org/abs/2511.10914)
+
+CVPR 2026,  
+Efficient Submodular Subset Selection Attribution Framework
+</div>
+</div>
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE T-IP 2026</div><img src='images/C2MFuse.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Disentangle to Fuse: Towards Content Preservation and Cross-Modality Consistency for Multi-Modality Image Fusion](https://ieeexplore.ieee.org/document/11369865)  
@@ -301,28 +327,7 @@ Attribution-guided Data Augmentation Framework
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2025</div><img src='images/PhaseWin.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-[PhaseWin Search Framework Enable Efficient Object-Level Interpretation](https://arxiv.org/abs/2511.10914) <span style="
-    background-color:#c86bda;
-    border-radius:25px;
-    color:white;
-    padding:2px 8px;
-    font-size:14px;
-    font-weight:bold;
-    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
-">
-Efficient XAI
-</span>  
 
-Zihan Gu, **Ruoyu Chen$^{\spadesuit}$**, Junchi Zhang, Yue Hu, Hua Zhang, and Xiaochun Cao
-
-[**Arxiv**](https://arxiv.org/abs/2511.10914)
-
-Preprint 2025,  
-Efficient Submodular Subset Selection Attribution Framework
-</div>
-</div>
 
 
 
