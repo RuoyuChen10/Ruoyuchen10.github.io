@@ -466,19 +466,21 @@ Jingzhi Li, Lutong Han, **Ruoyu Chen**, Hua Zhang, Bing Han, Lili Wang, and Xiao
 
 - IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)
 - IEEE Transactions on Biometrics, Behavior, and Identity Science (T-BIOM)
+- ACM Transactions on Intelligent Systems and Technology
 - Pattern Recognition
 - Knowledge-based Systems
+- Scientific Reports
 
 ### Conference Reviewer
 
-- CVPR 23, 24, 25
-- ICLR 24
+- CVPR 23, 24, 25, 26
+- ICLR 24, 26
 - NeurIPS 23, 24, NeurIPS 25 Datasets and Benchmarks Track
-- ICML 23, 24, 25
+- ICML 23, 24, 25, 26
 - ICCV 23
 - ECCV 22, 24
 - AAAI 2026, AAAI 2026 AI Alignment Track
-- ACM MM 25
+- ACM MM 25, 26
 - The 3rd Workshop for Out-of-Distribution Generalization in Computer Vision Foundation Models
 - COLM 2025 Workshop XLLM-Reason-Plan
 - The 1st MICCAI Workshop on Human-AI Collaboration
