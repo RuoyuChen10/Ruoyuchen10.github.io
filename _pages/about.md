@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, a Ph.D. candidate in Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS), working with [Prof. Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en) (currently the Dean of School of Cyber Science and Technology, Sun Yat-sen University) and [Hua Zhang](https://scholar.google.com/citations?user=KYifAy8AAAAJ&hl=en). I received my B.E. degree from Northeastern University, China. My research interests include <u><i>Interpretable AI</i></u> and <u><i>Foundation Model</i></u>. 
+I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, a Ph.D. candidate in Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS), working with [Prof. Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en) (currently the Dean of School of Cyber Science and Technology, Sun Yat-sen University) and [Hua Zhang](https://scholar.google.com/citations?user=KYifAy8AAAAJ&hl=en). I received my B.E. degree from Northeastern University, China. My research interests include <u><i>Interpretable AI</i></u> and <u><i>Foundation Model</i></u>. Recently, I have also been exploring agent safety, including failure attribution and agent unlearning, in collaboration with [Prof. Sijia Liu](https://lsjxjtu.github.io/) at Michigan State University.
 
 My research focuses on developing explainable attribution methods and their applications in multimodal foundation models and generative AI. Specifically: **(1) Explainable Attribution Technology**: Proposed faithful attribution mechanisms to interpret models across scales. **(2) Explanation-guided Learning**: Designed attribution-guided training frameworks and counterfactual augmentation methods. **(3) Multimodal Large Models**: In embodied (autonomous driving) and non-embodied (GUI agents) systems, or other applications of MLLMs.
 
@@ -238,9 +238,9 @@ $\dagger$ denotes equal contribiton, $\spadesuit$ denotes project leader, * deno
 Efficient XAI
 </span>  
 
-Zihan Gu, **Ruoyu Chen$^{\spadesuit}$**, Junchi Zhang, Yue Hu, Hua Zhang, and Xiaochun Cao
+Zihan Gu, **Ruoyu Chen**, Junchi Zhang, Yue Hu, Hua Zhang, and Xiaochun Cao
 
-[**Arxiv**](https://arxiv.org/abs/2511.10914)
+[**Code**](https://github.com/Qihuai27/phasewin-search) ![Star](https://img.shields.io/github/stars/Qihuai27/phasewin-search.svg?style=social&label=Star) / [**Arxiv**](https://arxiv.org/abs/2511.10914)
 
 CVPR 2026,  
 Efficient Submodular Subset Selection Attribution Framework
@@ -377,7 +377,7 @@ IEEE Internet of Things Journal,
 <div class='paper-box-text' markdown="1">
 [Beyond Progress Measures: Theoretical Insights into the Mechanism of Grokking](https://arxiv.org/abs/2504.03162)
 
-Zihan Gu$^\dagger$, **Ruoyu Chen$^{\dagger}$**, Hua Zhang, Yue Hu, and Xiaochun Cao ($\dagger$: Equal contribution)
+Zihan Gu$^\dagger$, **Ruoyu Chen$^{\dagger}$**, Hua Zhang, Yue Hu, and Xiaochun Cao
 
 [**Code**](https://github.com/Qihuai27/Grokking-Insight) ![Star](https://img.shields.io/github/stars/Qihuai27/Grokking-Insight.svg?style=social&label=Star) / [**Arxiv**](https://arxiv.org/abs/2504.03162) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
@@ -392,7 +392,7 @@ Grokking Mechanism.
 <div class='paper-box-text' markdown="1">
 [Object Detectors in the Open Environment: Challenges, Solutions, and Outlook](https://arxiv.org/abs/2403.16271)
 
-Siyuan Liang, Wei Wang$^\dagger$, **Ruoyu Chen$^{\dagger}$**, Aishan Liu, Boxi Wu, Ee-Chien Chang, Xiaochun Cao, and Dacheng Tao ($\dagger$: Equal contribution)
+Siyuan Liang, Wei Wang$^\dagger$, **Ruoyu Chen$^{\dagger}$**, Aishan Liu, Boxi Wu, Ee-Chien Chang, Xiaochun Cao, and Dacheng Tao
 
 [**Arxiv**](https://arxiv.org/abs/2403.16271) / [**Project**](https://github.com/LiangSiyuan21/OEOD_Survey) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
