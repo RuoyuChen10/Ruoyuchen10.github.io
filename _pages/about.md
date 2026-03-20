@@ -23,7 +23,7 @@ My research focuses on developing explainable attribution methods and their appl
 
 I'm committed to making XAI meaningful and actually helping us with AI systems. Including in the <u><i>model testing phase</i></u>, building an interpretation method for debugging the model to help us discover potential biases and errors in the model. In the <u><i>model training phase</i></u>, specific defects are discovered through interpretability, and a reasonable feedback mechanism is designed to enable the model to automatically repair errors to improve model performance and generalization, while making the training process transparent. In the <u><i>model deployment phase</i></u>, improve the explanation of the model and study the human-computer interaction or AI agent processes in dynamic environments.
 
-**I am open for collaborations in research**, especially in the fields of **Trustworthy AI** and **Foundation Model**. Please don’t hesitate to get in touch if my research interests you.
+**I am open for collaborations in research**, especially in the fields of **Trustworthy AI**, **Agentic AI**, and **Foundation Model**. Please don’t hesitate to get in touch if my research interests you.
 
 <strong style="color:red;">I will complete my Ph.D. in June 2026 and am actively seeking postdoctoral opportunities. Please feel free to contact me.</strong>
 
@@ -88,9 +88,15 @@ A state-of-the-art approach to explain autoregressive generation in large multim
     font-size:14px;
     font-weight:bold;
     box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
-">
-MLLM
-</span>  
+">MLLM</span>  <span style="
+    background-color:#7F1D1D;
+    border-radius:22px;
+    color:white;
+    padding:2px 4px;
+    font-size:14px;
+    font-weight:bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+">Agent</span>  
 **Ruoyu Chen**, Shangquan Sun, Xiaoqing Guo, Sanyi Zhang, Kangwei Liu, Shiming Liu, Zhangcheng Wang, Qunli Zhang, Hua Zhang, and Xiaochun Cao
 
 [**Arxiv**](https://arxiv.org/abs/2602.07008) 
@@ -467,6 +473,7 @@ Jingzhi Li, Lutong Han, **Ruoyu Chen**, Hua Zhang, Bing Han, Lili Wang, and Xiao
 - IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)
 - IEEE Transactions on Biometrics, Behavior, and Identity Science (T-BIOM)
 - ACM Transactions on Intelligent Systems and Technology
+- npj Heritage Science
 - Pattern Recognition
 - Knowledge-based Systems
 - Scientific Reports
