@@ -17,18 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, a Ph.D. candidate in Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS), working with [Prof. Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en) (currently the Dean of School of Cyber Science and Technology, Sun Yat-sen University) and [Hua Zhang](https://scholar.google.com/citations?user=KYifAy8AAAAJ&hl=en). I received my B.E. degree from Northeastern University, China. My research interests include <u><i>Interpretable AI</i></u> and <u><i>Foundation Model</i></u>. Recently, I have also been exploring agent safety, including failure attribution and agent unlearning, in collaboration with [Prof. Sijia Liu](https://lsjxjtu.github.io/) at Michigan State University.
-
-My research focuses on developing explainable attribution methods and their applications in multimodal foundation models and generative AI. Specifically: **(1) Explainable Attribution Technology**: Proposed faithful attribution mechanisms to interpret models across scales. **(2) Explanation-guided Learning**: Designed attribution-guided training frameworks and counterfactual augmentation methods. **(3) Multimodal Large Models**: In embodied (autonomous driving) and non-embodied (GUI agents) systems, or other applications of MLLMs.
-
-I'm committed to making XAI meaningful and actually helping us with AI systems. Including in the <u><i>model testing phase</i></u>, building an interpretation method for debugging the model to help us discover potential biases and errors in the model. In the <u><i>model training phase</i></u>, specific defects are discovered through interpretability, and a reasonable feedback mechanism is designed to enable the model to automatically repair errors to improve model performance and generalization, while making the training process transparent. In the <u><i>model deployment phase</i></u>, improve the explanation of the model and study the human-computer interaction or AI agent processes in dynamic environments.
+I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, I received my Ph.D. degree in Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS), working with [Prof. Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en) (currently the Dean of School of Cyber Science and Technology, Sun Yat-sen University) and Hua Zhang. I received my B.E. degree from Northeastern University, China. My research interests include <u><i>Interpretable AI</i></u> and <u><i>Foundation Model</i></u>. Recently, I have also been exploring agent safety, including agent attribution and agent unlearning, in collaboration with [Prof. Sijia Liu](https://lsjxjtu.github.io/) at Michigan State University.
 
 **I am open for collaborations in research**, especially in the fields of **Trustworthy AI**, **Agentic AI**, and **Foundation Model**. Please don’t hesitate to get in touch if my research interests you.
 
-<strong style="color:red;">I will complete my Ph.D. in June 2026 and am actively seeking postdoctoral opportunities. Please feel free to contact me.</strong>
-
 # 🔥 News
-- *2026.02.21*: 🎉🎉 Two papers (one first author) is accepted by **CVPR 2026**!
+- *2026.04.30*: 🎉🎉 I have successfully defended my Ph.D. dissertation, **Research on High Faithful Attribution Techniques for Model Reliability**.
+- *2026.02.21*: Two papers (one first author) is accepted by **CVPR 2026**!
 - *2025.04.09*: One paper is accepted by **T-PAMI**!
 - *2025.04.06*: VPS was selected as the **Highlight paper** of CVPR 2025.
 - *2025.02.28*: One paper is accepted by **CVPR 2025**! 
@@ -482,10 +477,10 @@ Jingzhi Li, Lutong Han, **Ruoyu Chen**, Hua Zhang, Bing Han, Lili Wang, and Xiao
 
 - CVPR 23, 24, 25, 26
 - ICLR 24, 26
-- NeurIPS 23, 24, NeurIPS 25 Datasets and Benchmarks Track
+- NeurIPS 23, 24, NeurIPS 25 Datasets and Benchmarks Track, 26
 - ICML 23, 24, 25, 26
 - ICCV 23
-- ECCV 22, 24
+- ECCV 22, 24, 26
 - AAAI 2026, AAAI 2026 AI Alignment Track
 - ACM MM 25, 26
 - The 3rd Workshop for Out-of-Distribution Generalization in Computer Vision Foundation Models
