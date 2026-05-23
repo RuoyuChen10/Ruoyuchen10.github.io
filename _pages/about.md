@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, I received my Ph.D. degree in Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS), working with [Prof. Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en) (currently the Dean of School of Cyber Science and Technology, Sun Yat-sen University) and Hua Zhang. I received my B.E. degree from Northeastern University, China. My research interests include <u><i>Interpretable AI</i></u> and <u><i>Foundation Model</i></u>. Recently, I have also been exploring agent safety, including agent attribution and agent unlearning, in collaboration with [Prof. Sijia Liu](https://lsjxjtu.github.io/) at Michigan State University.
+I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, I am an incoming Postdoctoral Researcher in the Department of Computer Science and Engineering at Michigan State University, advised by [Prof. Sijia Liu](https://lsjxjtu.github.io/). I received my Ph.D. in Computer Applied Technology from the University of Chinese Academy of Sciences, working with [Prof. Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en) (currently the Dean of School of Cyber Science and Technology, Sun Yat-sen University) and Hua Zhang. I received my B.E. degree from Northeastern University, China. My research interests include  <u><i>Multi-Agent Systems,  <u><i>Agent Safety</i></u>, and <u><i>Interpretable AI</i></u>.
 
 **I am open for collaborations in research**, especially in the fields of **Trustworthy AI**, **Agentic AI**, and **Foundation Model**. Please don’t hesitate to get in touch if my research interests you.
 
@@ -478,7 +478,7 @@ Jingzhi Li, Lutong Han, **Ruoyu Chen**, Hua Zhang, Bing Han, Lili Wang, and Xiao
 - CVPR 23, 24, 25, 26
 - ICLR 24, 26
 - NeurIPS 23, 24, NeurIPS 25 Datasets and Benchmarks Track, 26
-- ICML 23, 24, 25, 26
+- ICML 23, 24, 25, 26 (Gold Reviewer)
 - ICCV 23
 - ECCV 22, 24, 26
 - AAAI 2026, AAAI 2026 AI Alignment Track
