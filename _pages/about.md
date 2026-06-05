@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, I am an incoming Postdoctoral Researcher in the Department of Computer Science and Engineering at Michigan State University, advised by [Prof. Sijia Liu](https://lsjxjtu.github.io/). I received my Ph.D. in Computer Applied Technology from the University of Chinese Academy of Sciences, working with [Prof. Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en) (currently the Dean of School of Cyber Science and Technology, Sun Yat-sen University) and Hua Zhang. I received my B.E. degree from Northeastern University, China. My research interests include  <u><i>Multi-Agent Systems,  <u><i>Agent Safety</i></u>, and <u><i>Interpretable AI</i></u>.
+I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, I am an incoming Postdoctoral Researcher in the Department of Computer Science and Engineering at Michigan State University, advised by [Prof. Sijia Liu](https://lsjxjtu.github.io/). I received my Ph.D. in Computer Applied Technology from the University of Chinese Academy of Sciences, working with [Prof. Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en) (currently the Dean of School of Cyber Science and Technology, Sun Yat-sen University). I received my B.E. degree from Northeastern University, China. My research interests include  <u><i>Multi-Agent Systems,  <u><i>Agent Safety</i></u>, and <u><i>Interpretable AI</i></u>.
 
 **I am open for collaborations in research**, especially in the fields of **Trustworthy AI**, **Agentic AI**, and **Foundation Model**. Please don’t hesitate to get in touch if my research interests you.
 
