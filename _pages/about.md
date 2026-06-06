@@ -420,7 +420,7 @@ Jingzhi Li, Lutong Han, **Ruoyu Chen**, Hua Zhang, Bing Han, Lili Wang, and Xiao
 - More papers are being submitted, or please visit my [Google Scholar](https://scholar.google.com/citations?user=rvxqCZIAAAAJ&hl) to view all papers.
 
 # 🎖 Honors and Awards
-- <em>2026.06</em> <strong>CAS President Award</strong>, Chinese Academy of Sciences (<strong><font color="red">Only 57 CAS-wide recipients</font></strong>), UCAS.
+- <em>2026.06</em> <strong>CAS President Award - Special Prize</strong>, Chinese Academy of Sciences (<strong><font color="red">Only 57 CAS-wide recipients</font></strong>), UCAS.
 - *2020.12* **China National Scholarship**, Ministry of Education of the People’s Republic of China (<strong><font color=red>Top 1.5%</font></strong>), NEU.
 - *2019.12* **China National Scholarship**, Ministry of Education of the People’s Republic of China (<strong><font color=red>Top 1.5%</font></strong>), NEU.
 - *2018.12* **China National Scholarship**, Ministry of Education of the People’s Republic of China (<strong><font color=red>Top 1.5%</font></strong>), NEU.
