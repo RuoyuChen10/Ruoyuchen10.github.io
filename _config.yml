@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Ruoyu Chen"
-description              : "Ph.D. Candidate, University of Chinese Academy of Sciences, China"
+description              : "Ph.D., University of Chinese Academy of Sciences, China"
 repository               : "RuoyuChen10/Ruoyuchen10.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -43,7 +43,7 @@ author:
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : ruoyu-chen-495383239 # e.g., "linkedin username"
   dblp             : "https://dblp.org/pid/18/6696-1.html" 
   orcid            : "https://orcid.org/0000-0001-7630-7154" # e.g., "https://orcid.org/xxxx"
   pinterest        :
