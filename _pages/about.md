@@ -469,6 +469,7 @@ Jingzhi Li, Lutong Han, **Ruoyu Chen**, Hua Zhang, Bing Han, Lili Wang, and Xiao
 - IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)
 - IEEE Transactions on Biometrics, Behavior, and Identity Science (T-BIOM)
 - IEEE Transactions on Signal Processing (T-SP)
+- IEEE Transactions on Multimedia (T-MM)
 - ACM Transactions on Intelligent Systems and Technology
 - npj Heritage Science
 - Pattern Recognition
