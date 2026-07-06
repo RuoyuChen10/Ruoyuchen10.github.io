@@ -470,6 +470,7 @@ Jingzhi Li, Lutong Han, **Ruoyu Chen**, Hua Zhang, Bing Han, Lili Wang, and Xiao
 - IEEE Transactions on Biometrics, Behavior, and Identity Science (T-BIOM)
 - IEEE Transactions on Signal Processing (T-SP)
 - IEEE Transactions on Multimedia (T-MM)
+- IEEE Transactions on Audio, Speech, and Language Processing (T-ASLP)
 - ACM Transactions on Intelligent Systems and Technology
 - npj Heritage Science
 - Pattern Recognition
