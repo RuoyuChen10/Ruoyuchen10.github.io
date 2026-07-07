@@ -472,6 +472,7 @@ Jingzhi Li, Lutong Han, **Ruoyu Chen**, Hua Zhang, Bing Han, Lili Wang, and Xiao
 - IEEE Transactions on Multimedia (T-MM)
 - IEEE Transactions on Audio, Speech, and Language Processing (T-ASLP)
 - ACM Transactions on Intelligent Systems and Technology
+- npj Artificial Intelligence
 - npj Heritage Science
 - Pattern Recognition
 - Knowledge-based Systems
