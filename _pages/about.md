@@ -22,7 +22,7 @@ I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, I am an incoming Pos
 **I am open for collaborations in research**. Please don’t hesitate to get in touch if my research interests you.
 
 # 🔥 News
-- *2026.04.30*: 🎉🎉 I have successfully defended my Ph.D. dissertation, **Research on High Faithful Attribution Techniques for Model Reliability**.
+- *2026.04.30*: 🎉🎉 I have successfully defended my Ph.D. dissertation.
 - *2026.02.21*: Two papers (one first author) is accepted by **CVPR 2026**!
 - *2025.04.09*: One paper is accepted by **T-PAMI**!
 - *2025.04.06*: VPS was selected as the **Highlight paper** of CVPR 2025.
