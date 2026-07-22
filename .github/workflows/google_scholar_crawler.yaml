@@ -1,29 +1,45 @@
-name: Get Citation Data
+name: Google Scholar Citations
 
-on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/google_scholar_crawler.yaml"
+      - "google_scholar_crawler/**"
+  schedule:
+    - cron: "0 8 */3 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  crawl:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Install Reqs
-      run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
-      run: |
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-        cd ./results
-        git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r google_scholar_crawler/requirements.txt
+
+      - name: Fetch Google Scholar citations
+        env:
+          GOOGLE_SCHOLAR_ID: rvxqCZIAAAAJ
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+        run: |
+          cd google_scholar_crawler
+          python main.py
+
+      - name: Publish citation data
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./google_scholar_crawler/results
+          publish_branch: google-scholar-stats
+          force_orphan: true

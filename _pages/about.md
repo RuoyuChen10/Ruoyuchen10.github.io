@@ -8,14 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
+
+<a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener" title="View my Google Scholar profile">
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data_shieldsio.json&amp;label=Google%20Scholar%20Citations&amp;labelColor=555&amp;color=4285F4&amp;logo=googlescholar&amp;logoColor=white" alt="Google Scholar citations">
+</a>
 
 I'm **Ruoyu Chen <font face="楷体" >(陈若愚)</font>**, I am an incoming Postdoctoral Researcher in the Department of Computer Science and Engineering at Michigan State University, advised by [Prof. Sijia Liu](https://lsjxjtu.github.io/). I received my Ph.D. in Computer Applied Technology from the University of Chinese Academy of Sciences, working with [Prof. Xiaochun Cao](https://scholar.google.com/citations?user=PDgp6OkAAAAJ&hl=en). I received my B.E. degree from Northeastern University, China.
 
