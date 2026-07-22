@@ -38,7 +38,7 @@
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
       {% endif %}
       {% if author.twitter %}
-        <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        <li><a href="https://x.com/{{ author.twitter }}">{% include icon-x.html %} X</a></li>
       {% endif %}
       {% if author.facebook %}
         <li><a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
@@ -133,7 +133,7 @@
         <a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.twitter %}
-        <a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="https://x.com/{{ author.twitter }}" aria-label="X">{% include icon-x.html %}</a>
       {% endif %}
       {% if author.facebook %}
         <a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i></a>
