@@ -1,0 +1,39 @@
+name: Google Scholar Citations
+
+on:
+  schedule:
+    - cron: "0 8 */3 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r google_scholar_crawler/requirements.txt
+
+      - name: Fetch Google Scholar citations
+        env:
+          GOOGLE_SCHOLAR_ID: rvxqCZIAAAAJ
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+        working-directory: google_scholar_crawler
+        run: python main.py
+
+      - name: Publish citation data
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./google_scholar_crawler/results
+          publish_branch: google-scholar-stats
+          force_orphan: true
