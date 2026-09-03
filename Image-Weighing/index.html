@@ -1,0 +1,1519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#092d3b">
+  <meta name="description" content="Online, noncontact weight estimation for moving White Pekin duck carcasses using a single 2D camera and a convolutional neural network.">
+  <meta property="og:title" content="Online Estimating Weight of White Pekin Duck Carcass by Computer Vision">
+  <meta property="og:description" content="A low-cost, noncontact computer-vision system for weighing duck carcasses on a production line.">
+  <meta property="og:image" content="https://ars.els-cdn.com/content/image/1-s2.0-S0032579122006423-gr1.jpg">
+  <meta property="og:type" content="website">
+  <title>Image Weighing · White Pekin Duck Carcasses</title>
+
+  <style>
+    :root {
+      --ink: #092d3b;
+      --ink-soft: #31525d;
+      --paper: #f5f1e8;
+      --paper-deep: #ebe4d5;
+      --white: #fffdf8;
+      --blue: #176a83;
+      --blue-light: #9bd7e4;
+      --yellow: #f4b940;
+      --coral: #ed765c;
+      --line: rgba(9, 45, 59, 0.14);
+      --shadow: 0 24px 70px rgba(9, 45, 59, 0.13);
+      --radius: 24px;
+      --max-width: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 10% 8%, rgba(244, 185, 64, 0.18), transparent 24rem),
+        linear-gradient(180deg, #f8f5ee 0%, var(--paper) 45%, #f9f7f1 100%);
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 17px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img,
+    video {
+      display: block;
+      width: 100%;
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .shell {
+      width: min(calc(100% - 40px), var(--max-width));
+      margin: 0 auto;
+    }
+
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(9, 45, 59, 0.94);
+      color: #fff;
+      backdrop-filter: blur(18px);
+    }
+
+    .nav-inner {
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      font-weight: 760;
+      letter-spacing: -0.02em;
+    }
+
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--yellow);
+      color: var(--ink);
+      font-size: 16px;
+      font-weight: 900;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.76);
+    }
+
+    .nav-links a {
+      transition: color 180ms ease;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+      color: #fff;
+    }
+
+    .nav-paper {
+      padding: 8px 15px;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 999px;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 92px 0 72px;
+      color: #fff;
+      background:
+        linear-gradient(115deg, rgba(9, 45, 59, 0.98), rgba(9, 45, 59, 0.88)),
+        linear-gradient(150deg, #0a465a, #092d3b);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: 0.2;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+      background-size: 54px 54px;
+      mask-image: linear-gradient(to right, transparent, black 45%, black);
+    }
+
+    .hero-grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(420px, 0.95fr);
+      align-items: center;
+      gap: 66px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin: 0 0 22px;
+      color: var(--blue-light);
+      font-size: 13px;
+      font-weight: 820;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 28px;
+      height: 3px;
+      border-radius: 999px;
+      background: var(--yellow);
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      max-width: 780px;
+      margin-bottom: 25px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(45px, 6.2vw, 79px);
+      font-weight: 500;
+      line-height: 1.02;
+      letter-spacing: -0.045em;
+    }
+
+    .hero-summary {
+      max-width: 680px;
+      margin-bottom: 22px;
+      color: rgba(255, 255, 255, 0.74);
+      font-size: 19px;
+      line-height: 1.65;
+    }
+
+    .authors {
+      max-width: 700px;
+      margin-bottom: 26px;
+      color: rgba(255, 255, 255, 0.64);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .authors strong {
+      color: #fff;
+      font-weight: 760;
+    }
+
+    .venue {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-bottom: 30px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+      padding: 5px 12px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      color: rgba(255, 255, 255, 0.82);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 11px;
+    }
+
+    .button {
+      min-height: 48px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 11px 18px;
+      border: 1px solid rgba(255, 255, 255, 0.26);
+      border-radius: 13px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 780;
+      transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+    }
+
+    .button:hover,
+    .button:focus-visible {
+      transform: translateY(-2px);
+      border-color: rgba(255, 255, 255, 0.55);
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .button-primary {
+      border-color: var(--yellow);
+      background: var(--yellow);
+      color: var(--ink);
+    }
+
+    .button-primary:hover,
+    .button-primary:focus-visible {
+      border-color: #ffd276;
+      background: #ffd276;
+    }
+
+    .button svg {
+      width: 17px;
+      height: 17px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.8;
+    }
+
+    .demo-card {
+      position: relative;
+      width: min(100%, 390px);
+      justify-self: end;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 28px;
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.24);
+    }
+
+    .demo-card::before {
+      content: "Live on the line";
+      position: absolute;
+      top: 17px;
+      left: 17px;
+      z-index: 4;
+      padding: 7px 11px;
+      border-radius: 999px;
+      background: rgba(9, 45, 59, 0.84);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 820;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      backdrop-filter: blur(8px);
+    }
+
+    .demo-media {
+      position: relative;
+      aspect-ratio: 9 / 16;
+      overflow: hidden;
+      background: #071f29;
+    }
+
+    .demo-media video,
+    .demo-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .demo-fallback {
+      display: none;
+    }
+
+    .demo-media.is-fallback video {
+      display: none;
+    }
+
+    .demo-media.is-fallback .demo-fallback {
+      display: block;
+    }
+
+    .demo-caption {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 17px 20px;
+      background: rgba(5, 30, 39, 0.96);
+      color: rgba(255, 255, 255, 0.74);
+      font-size: 12px;
+    }
+
+    .stream-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .stream-label::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #61d095;
+      box-shadow: 0 0 0 4px rgba(97, 208, 149, 0.14);
+    }
+
+    .metrics {
+      position: relative;
+      z-index: 3;
+      margin-top: -1px;
+      background: var(--yellow);
+    }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .metric {
+      padding: 25px 20px 27px;
+      border-left: 1px solid rgba(9, 45, 59, 0.16);
+      text-align: center;
+    }
+
+    .metric:last-child {
+      border-right: 1px solid rgba(9, 45, 59, 0.16);
+    }
+
+    .metric strong {
+      display: block;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(31px, 4vw, 45px);
+      font-weight: 500;
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+
+    .metric span {
+      display: block;
+      margin-top: 7px;
+      font-size: 11px;
+      font-weight: 820;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    section {
+      padding: 104px 0;
+    }
+
+    section[id] {
+      scroll-margin-top: 80px;
+    }
+
+    .section-heading {
+      display: grid;
+      grid-template-columns: minmax(0, 0.42fr) minmax(0, 0.58fr);
+      gap: 70px;
+      align-items: end;
+      margin-bottom: 50px;
+    }
+
+    .section-kicker {
+      margin-bottom: 13px;
+      color: var(--blue);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin-bottom: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(38px, 5vw, 59px);
+      font-weight: 500;
+      line-height: 1.06;
+      letter-spacing: -0.04em;
+    }
+
+    .section-lede {
+      margin-bottom: 4px;
+      color: var(--ink-soft);
+      font-size: 18px;
+      line-height: 1.75;
+    }
+
+    .overview-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(300px, 0.9fr);
+      gap: 25px;
+    }
+
+    .paper-card {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 253, 248, 0.76);
+      box-shadow: var(--shadow);
+    }
+
+    .figure-card img {
+      aspect-ratio: 16 / 9;
+      object-fit: contain;
+      padding: 22px;
+      background: #fff;
+    }
+
+    figcaption {
+      padding: 18px 22px 20px;
+      border-top: 1px solid var(--line);
+      color: var(--ink-soft);
+      font-size: 13px;
+    }
+
+    .insight-card {
+      padding: 34px;
+      background: var(--ink);
+      color: #fff;
+    }
+
+    .insight-number {
+      display: inline-grid;
+      width: 40px;
+      height: 40px;
+      place-items: center;
+      margin-bottom: 40px;
+      border: 1px solid rgba(255, 255, 255, 0.26);
+      border-radius: 50%;
+      color: var(--yellow);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+    }
+
+    .insight-card h3 {
+      margin-bottom: 14px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 31px;
+      font-weight: 500;
+      line-height: 1.17;
+      letter-spacing: -0.025em;
+    }
+
+    .insight-card p {
+      margin-bottom: 0;
+      color: rgba(255, 255, 255, 0.66);
+    }
+
+    .method-section {
+      background: #fffdf8;
+      border-block: 1px solid var(--line);
+    }
+
+    .pipeline {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+      counter-reset: method;
+    }
+
+    .step-card {
+      position: relative;
+      min-height: 310px;
+      padding: 29px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: var(--paper);
+      counter-increment: method;
+    }
+
+    .step-card::after {
+      content: "0" counter(method);
+      position: absolute;
+      right: 18px;
+      bottom: -16px;
+      color: rgba(9, 45, 59, 0.06);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 112px;
+      line-height: 1;
+    }
+
+    .step-icon {
+      width: 47px;
+      height: 47px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 42px;
+      border-radius: 14px;
+      background: var(--yellow);
+      color: var(--ink);
+    }
+
+    .step-icon svg {
+      width: 23px;
+      height: 23px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.7;
+    }
+
+    .step-card h3 {
+      position: relative;
+      z-index: 1;
+      margin-bottom: 12px;
+      font-size: 20px;
+      line-height: 1.3;
+    }
+
+    .step-card p {
+      position: relative;
+      z-index: 1;
+      margin-bottom: 0;
+      color: var(--ink-soft);
+      font-size: 14px;
+    }
+
+    .architecture-card {
+      margin-top: 24px;
+    }
+
+    .architecture-card img {
+      max-height: 490px;
+      object-fit: contain;
+      padding: 34px;
+      background: #fff;
+    }
+
+    .results-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+      gap: 25px;
+      align-items: stretch;
+    }
+
+    .comparison-card {
+      padding: 35px;
+    }
+
+    .comparison-card h3,
+    .result-figure h3 {
+      margin-bottom: 8px;
+      font-size: 22px;
+    }
+
+    .card-note {
+      margin-bottom: 31px;
+      color: var(--ink-soft);
+      font-size: 13px;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: 105px minmax(0, 1fr) 64px;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 19px;
+      font-size: 13px;
+    }
+
+    .bar-label {
+      font-weight: 760;
+    }
+
+    .bar-track {
+      height: 17px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: var(--paper-deep);
+    }
+
+    .bar {
+      height: 100%;
+      border-radius: 999px;
+      background: var(--coral);
+    }
+
+    .bar-best {
+      background: var(--blue);
+    }
+
+    .bar-value {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      font-weight: 800;
+    }
+
+    .secondary-metrics {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 34px;
+    }
+
+    .secondary-metric {
+      padding: 18px 12px;
+      border-radius: 15px;
+      background: var(--paper);
+      text-align: center;
+    }
+
+    .secondary-metric strong {
+      display: block;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 25px;
+      font-weight: 500;
+    }
+
+    .secondary-metric span {
+      display: block;
+      margin-top: 2px;
+      color: var(--ink-soft);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .result-figure {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .result-figure img {
+      min-height: 315px;
+      flex: 1;
+      object-fit: contain;
+      padding: 26px;
+      background: #fff;
+    }
+
+    .result-caption {
+      padding: 20px 24px 23px;
+      border-top: 1px solid var(--line);
+    }
+
+    .result-caption h3 {
+      margin-bottom: 4px;
+    }
+
+    .result-caption p {
+      margin-bottom: 0;
+      color: var(--ink-soft);
+      font-size: 13px;
+    }
+
+    .paper-evidence {
+      margin-top: 68px;
+    }
+
+    .evidence-heading {
+      display: grid;
+      grid-template-columns: minmax(0, 0.42fr) minmax(0, 0.58fr);
+      gap: 70px;
+      align-items: end;
+      margin-bottom: 27px;
+      padding: 0 4px;
+    }
+
+    .evidence-heading h3 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(29px, 3.6vw, 43px);
+      font-weight: 500;
+      line-height: 1.08;
+      letter-spacing: -0.035em;
+    }
+
+    .evidence-heading p {
+      margin: 0;
+      color: var(--ink-soft);
+      font-size: 15px;
+    }
+
+    .evidence-stack {
+      display: grid;
+      gap: 26px;
+    }
+
+    .evidence-card {
+      display: grid;
+      grid-template-columns: minmax(260px, 0.34fr) minmax(0, 0.66fr);
+      overflow: hidden;
+    }
+
+    .evidence-card-reverse {
+      grid-template-columns: minmax(0, 0.66fr) minmax(260px, 0.34fr);
+    }
+
+    .evidence-card-reverse .evidence-copy {
+      order: 2;
+    }
+
+    .evidence-card-reverse .evidence-media {
+      order: 1;
+    }
+
+    .evidence-copy {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 38px;
+      border: 0;
+      color: #fff;
+      background: var(--ink);
+    }
+
+    .evidence-copy-light {
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 90% 10%, rgba(244, 185, 64, 0.28), transparent 10rem),
+        #dceef1;
+    }
+
+    .figure-label {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: max-content;
+      min-height: 31px;
+      padding: 5px 11px;
+      border-radius: 999px;
+      margin-bottom: 28px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-size: 11px;
+      font-weight: 820;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .evidence-copy h3 {
+      margin-bottom: 12px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1.12;
+      letter-spacing: -0.025em;
+    }
+
+    .evidence-copy p {
+      margin-bottom: 23px;
+      color: rgba(255, 255, 255, 0.68);
+      font-size: 13px;
+    }
+
+    .evidence-copy-light p {
+      color: var(--ink-soft);
+    }
+
+    .method-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .method-pills span {
+      padding: 6px 10px;
+      border: 1px solid rgba(255, 255, 255, 0.17);
+      border-radius: 999px;
+      color: rgba(255, 255, 255, 0.82);
+      font-size: 10px;
+      font-weight: 780;
+      letter-spacing: 0.04em;
+    }
+
+    .configuration-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      border-top: 1px solid rgba(9, 45, 59, 0.14);
+    }
+
+    .configuration-list li {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 9px 0;
+      border-bottom: 1px solid rgba(9, 45, 59, 0.14);
+      color: var(--ink-soft);
+      font-size: 11px;
+    }
+
+    .configuration-list strong {
+      color: var(--ink);
+      font-weight: 800;
+    }
+
+    .evidence-media {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 0;
+      background: #fff;
+    }
+
+    .evidence-media img {
+      width: 100%;
+      height: 100%;
+      min-height: 450px;
+      max-height: 790px;
+      object-fit: contain;
+      padding: 28px;
+      background: #fff;
+      transition: transform 220ms ease;
+    }
+
+    .evidence-card-wide .evidence-media img {
+      min-height: 390px;
+      max-height: 540px;
+    }
+
+    .evidence-media:hover img,
+    .evidence-media:focus-visible img {
+      transform: scale(1.012);
+    }
+
+    .takeaway {
+      margin-top: 26px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 22px;
+      padding: 29px 32px;
+      border: 1px solid rgba(23, 106, 131, 0.2);
+      border-radius: 19px;
+      background: rgba(155, 215, 228, 0.15);
+    }
+
+    .takeaway-mark {
+      color: var(--blue);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 48px;
+      line-height: 0.92;
+    }
+
+    .takeaway p {
+      margin: 0;
+      color: var(--ink-soft);
+    }
+
+    .citation-section {
+      color: #fff;
+      background: var(--ink);
+    }
+
+    .citation-section .section-kicker {
+      color: var(--blue-light);
+    }
+
+    .citation-section .section-heading {
+      margin-bottom: 38px;
+    }
+
+    .citation-section .section-lede {
+      color: rgba(255, 255, 255, 0.63);
+    }
+
+    .citation-box {
+      position: relative;
+      padding: 29px 90px 29px 29px;
+      overflow: auto;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 19px;
+      background: rgba(0, 0, 0, 0.17);
+    }
+
+    .citation-box pre {
+      margin: 0;
+      white-space: pre-wrap;
+      color: rgba(255, 255, 255, 0.74);
+      font: 13px/1.65 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    .copy-button {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      padding: 7px 11px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 9px;
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      cursor: pointer;
+      font-size: 11px;
+      font-weight: 780;
+    }
+
+    .visitor-map {
+      padding: 8px 0 34px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      color: #fff;
+      background: var(--ink);
+      text-align: center;
+    }
+
+    .visitor-map-label {
+      margin-bottom: 17px;
+      color: rgba(255, 255, 255, 0.46);
+      font-size: 10px;
+      font-weight: 820;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .visitor-map-widget {
+      display: flex;
+      justify-content: center;
+      min-height: 40px;
+      overflow: hidden;
+    }
+
+    .visitor-map-widget img {
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    .footer {
+      padding: 27px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.52);
+      background: var(--ink);
+      font-size: 12px;
+    }
+
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .footer a {
+      color: rgba(255, 255, 255, 0.8);
+      font-weight: 700;
+    }
+
+    .external-note {
+      font-size: 11px;
+    }
+
+    @media (max-width: 930px) {
+      .hero-grid,
+      .section-heading,
+      .overview-grid,
+      .results-grid,
+      .evidence-heading,
+      .evidence-card,
+      .evidence-card-reverse {
+        grid-template-columns: 1fr;
+      }
+
+      .evidence-heading {
+        gap: 12px;
+      }
+
+      .evidence-card-reverse .evidence-copy {
+        order: 1;
+      }
+
+      .evidence-card-reverse .evidence-media {
+        order: 2;
+      }
+
+      .hero-grid {
+        gap: 48px;
+      }
+
+      .demo-card {
+        width: min(100%, 390px);
+        justify-self: start;
+        transform: none;
+      }
+
+      .section-heading {
+        gap: 22px;
+      }
+
+      .pipeline {
+        grid-template-columns: 1fr;
+      }
+
+      .step-card {
+        min-height: 0;
+      }
+
+      .step-icon {
+        margin-bottom: 28px;
+      }
+    }
+
+    @media (max-width: 700px) {
+      body {
+        font-size: 16px;
+      }
+
+      .shell {
+        width: min(calc(100% - 26px), var(--max-width));
+      }
+
+      .nav-inner {
+        min-height: 61px;
+      }
+
+      .brand {
+        font-size: 14px;
+      }
+
+      .brand-mark {
+        width: 30px;
+        height: 30px;
+      }
+
+      .nav-links a:not(.nav-paper) {
+        display: none;
+      }
+
+      .nav-paper {
+        padding: 7px 12px;
+        font-size: 12px;
+      }
+
+      .hero {
+        padding: 70px 0 54px;
+      }
+
+      .hero-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .demo-card {
+        justify-self: center;
+      }
+
+      h1 {
+        font-size: clamp(39px, 12vw, 58px);
+      }
+
+      .hero-summary {
+        font-size: 17px;
+      }
+
+      .metric-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .metric:nth-child(3),
+      .metric:nth-child(4) {
+        border-top: 1px solid rgba(9, 45, 59, 0.16);
+      }
+
+      section {
+        padding: 76px 0;
+      }
+
+      .section-lede {
+        font-size: 16px;
+      }
+
+      .comparison-card,
+      .insight-card {
+        padding: 27px;
+      }
+
+      .bar-row {
+        grid-template-columns: 82px minmax(0, 1fr) 56px;
+        gap: 9px;
+        font-size: 11px;
+      }
+
+      .secondary-metric strong {
+        font-size: 21px;
+      }
+
+      .takeaway {
+        grid-template-columns: 1fr;
+      }
+
+      .takeaway-mark {
+        font-size: 36px;
+      }
+
+      .citation-box {
+        padding: 65px 20px 22px;
+      }
+
+      .paper-evidence {
+        margin-top: 52px;
+      }
+
+      .evidence-copy {
+        padding: 27px;
+      }
+
+      .evidence-copy h3 {
+        font-size: 26px;
+      }
+
+      .figure-label {
+        margin-bottom: 21px;
+      }
+
+      .evidence-media img,
+      .evidence-card-wide .evidence-media img {
+        min-height: 0;
+        max-height: none;
+        padding: 14px;
+      }
+
+      .footer-inner {
+        display: block;
+      }
+
+      .external-note {
+        margin-top: 5px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="site-nav" aria-label="Primary navigation">
+    <div class="shell nav-inner">
+      <a class="brand" href="../" aria-label="Back to Ruoyu Chen's homepage">
+        <span class="brand-mark">W</span>
+        <span>Image Weighing</span>
+      </a>
+      <div class="nav-links">
+        <a href="#overview">Overview</a>
+        <a href="#method">Method</a>
+        <a href="#results">Results</a>
+        <a class="nav-paper" href="https://doi.org/10.1016/j.psj.2022.102348" target="_blank" rel="noopener">Read paper ↗</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="shell hero-grid">
+      <div>
+        <p class="eyebrow">Computer Vision · Precision Agriculture</p>
+        <h1>Weighing ducks without stopping the line.</h1>
+        <p class="hero-summary">
+          A low-cost, noncontact system that estimates the weight of moving White Pekin duck carcasses from ordinary 2D video using an end-to-end convolutional neural network.
+        </p>
+        <p class="authors">
+          <strong>Ruoyu Chen</strong>, Yuliang Zhao, Yongliang Yang, Shuyu Wang, Lianjiang Li, Xiaopeng Sha, Lianqing Liu, Guanglie Zhang, and Wen Jung Li
+        </p>
+        <div class="venue" aria-label="Publication details">
+          <span class="tag">Poultry Science 2023</span>
+          <span class="tag">Volume 102 · Issue 2</span>
+          <span class="tag">Open access</span>
+        </div>
+        <div class="actions">
+          <a class="button button-primary" href="https://doi.org/10.1016/j.psj.2022.102348" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7M10 14 21 3M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"/></svg>
+            Paper
+          </a>
+          <a class="button" href="https://github.com/RuoyuChen10/Image_weighing" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 9 3 12l5 3M16 9l5 3-5 3M14 5l-4 14"/></svg>
+            Code &amp; dataset
+          </a>
+          <a class="button" href="../slide/Image_Weighing_PoultrySci.2022.pdf" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h16v18H4zM8 8h8M8 12h8M8 16h5"/></svg>
+            Poster
+          </a>
+        </div>
+      </div>
+
+      <div class="demo-card">
+        <div class="demo-media" id="demo-media">
+          <video id="demo-video" autoplay muted loop playsinline controls preload="metadata" poster="https://ars.els-cdn.com/content/image/1-s2.0-S0032579122006423-gr1.jpg" aria-label="Duck carcasses moving through the image acquisition setup">
+            <source src="https://ars.els-cdn.com/content/image/1-s2.0-S0032579122006423-mmc1.mp4" type="video/mp4">
+          </video>
+          <img class="demo-fallback" data-src="../images/duck.gif" alt="Duck carcasses moving through the image acquisition setup">
+        </div>
+        <div class="demo-caption">
+          <span class="stream-label">Supplementary video</span>
+          <span>Streamed from Elsevier · no local video</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="metrics" aria-label="Key results">
+    <div class="shell metric-grid">
+      <div class="metric"><strong>2.15%</strong><span>Mean relative error</span></div>
+      <div class="metric"><strong>58.8 g</strong><span>Mean absolute deviation</span></div>
+      <div class="metric"><strong>50</strong><span>Duck carcasses</span></div>
+      <div class="metric"><strong>7,500</strong><span>Evaluation images</span></div>
+    </div>
+  </div>
+
+  <main>
+    <section id="overview">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">The idea</p>
+            <h2>A camera becomes the scale.</h2>
+          </div>
+          <p class="section-lede">
+            Traditional conveyor scales require carcasses to be transferred away from the production line. Our system adds a monocular camera and a simple blue backdrop to the existing line, then predicts weight directly from the captured silhouettes.
+          </p>
+        </div>
+
+        <div class="overview-grid">
+          <figure class="paper-card figure-card">
+            <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0032579122006423-gr1.jpg" alt="Camera and blue backdrop installed beside a duck processing line" loading="lazy">
+            <figcaption>Image acquisition setup in the working production environment. The camera is positioned two meters from the line.</figcaption>
+          </figure>
+          <article class="paper-card insight-card">
+            <span class="insight-number">01</span>
+            <h3>Built for existing production lines.</h3>
+            <p>
+              The setup uses a single visible-light camera recording at 30 fps while the line travels at 0.5 m/s. It avoids specialized depth sensors, multiple cameras, and intrusive mechanical retrofits.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="method-section" id="method">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Method</p>
+            <h2>From moving pixels to grams.</h2>
+          </div>
+          <p class="section-lede">
+            Each duck is observed from multiple nearby angles. A lightweight preprocessing pipeline isolates its body shape before a compact CNN regresses the silhouette directly to a continuous weight estimate.
+          </p>
+        </div>
+
+        <div class="pipeline">
+          <article class="step-card">
+            <div class="step-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h3l2-3h6l2 3h3v12H4z"/><circle cx="12" cy="13" r="4"/></svg>
+            </div>
+            <h3>Capture</h3>
+            <p>A monocular camera records carcasses against a blue backdrop as they pass through its field of view.</p>
+          </article>
+          <article class="step-card">
+            <div class="step-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4zM8 4v16M16 4v16M4 9h4M16 15h4"/></svg>
+            </div>
+            <h3>Extract</h3>
+            <p>The red channel is thresholded and cleaned, the feet are excluded, and each silhouette is resized to 253 × 80 pixels.</p>
+          </article>
+          <article class="step-card">
+            <div class="step-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h4v4H5zM15 7h4v4h-4zM10 15h4v4h-4zM9 9h6M7 11v2l5 2M17 11v2l-5 2"/></svg>
+            </div>
+            <h3>Regress</h3>
+            <p>Three convolutional layers learn visual features end to end; predictions across views are averaged for a stable final estimate.</p>
+          </article>
+        </div>
+
+        <figure class="paper-card architecture-card">
+          <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0032579122006423-gr3.jpg" alt="Architecture of the convolutional neural network for duck carcass weight estimation" loading="lazy">
+          <figcaption>The regression network uses three convolutional layers, two fully connected layers, Softplus activations, and 10% dropout during training.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="results">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Results</p>
+            <h2>Less than 60 grams off.</h2>
+          </div>
+          <p class="section-lede">
+            Ten-fold cross-validation keeps images of the same duck out of both training and testing splits. The CNN substantially reduces estimation error compared with two established 2D image-based baselines.
+          </p>
+        </div>
+
+        <div class="results-grid">
+          <article class="paper-card comparison-card">
+            <h3>Mean absolute deviation ↓</h3>
+            <p class="card-note">Lower is better · measured in grams</p>
+            <div class="bar-row">
+              <span class="bar-label">CNN (ours)</span>
+              <span class="bar-track"><span class="bar bar-best" style="width: 47.6%"></span></span>
+              <span class="bar-value">58.8</span>
+            </div>
+            <div class="bar-row">
+              <span class="bar-label">ANN</span>
+              <span class="bar-track"><span class="bar" style="width: 86.6%"></span></span>
+              <span class="bar-value">107.0</span>
+            </div>
+            <div class="bar-row">
+              <span class="bar-label">Pixel area</span>
+              <span class="bar-track"><span class="bar" style="width: 100%"></span></span>
+              <span class="bar-value">123.5</span>
+            </div>
+
+            <div class="secondary-metrics">
+              <div class="secondary-metric"><strong>0.8804</strong><span>R²</span></div>
+              <div class="secondary-metric"><strong>63.6 g</strong><span>RMSE</span></div>
+              <div class="secondary-metric"><strong>2.33%</strong><span>CVe</span></div>
+            </div>
+          </article>
+
+          <figure class="paper-card result-figure">
+            <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0032579122006423-gr4.jpg" alt="Model predictions, ground truth comparison, and prediction error distribution" loading="lazy">
+            <figcaption class="result-caption">
+              <h3>Stable across viewpoints</h3>
+              <p>Predictions from multiple angles are averaged to produce the final carcass weight estimate.</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="paper-evidence">
+          <div class="evidence-heading">
+            <div>
+              <p class="section-kicker">Inside the experiments</p>
+              <h3>Baselines and model choices.</h3>
+            </div>
+            <p>The complete paper figures connect the headline result to the traditional baselines and the design decisions behind the final CNN.</p>
+          </div>
+
+          <div class="evidence-stack">
+            <figure class="paper-card evidence-card evidence-card-wide">
+              <figcaption class="evidence-copy">
+                <span class="figure-label">Figure 5</span>
+                <h3>One task.<br>Three strategies.</h3>
+                <p>Pixel-area regression and a handcrafted-feature ANN are evaluated beside our end-to-end CNN on the same data.</p>
+                <div class="method-pills" aria-label="Compared methods">
+                  <span>Pixel area</span>
+                  <span>ANN</span>
+                  <span>CNN · ours</span>
+                </div>
+              </figcaption>
+              <a class="evidence-media" href="https://ars.els-cdn.com/content/image/1-s2.0-S0032579122006423-gr5_lrg.jpg" target="_blank" rel="noopener" aria-label="Open Figure 5 at full size">
+                <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0032579122006423-gr5_lrg.jpg" alt="Pixel-area regression, handcrafted-feature ANN, and CNN weight estimation methods and results" loading="lazy" decoding="async">
+              </a>
+            </figure>
+
+            <figure class="paper-card evidence-card evidence-card-reverse">
+              <figcaption class="evidence-copy evidence-copy-light">
+                <span class="figure-label">Figure 6</span>
+                <h3>Choosing the final CNN.</h3>
+                <p>Learning curves and error distributions reveal the most reliable architecture and training setup.</p>
+                <ul class="configuration-list" aria-label="Selected model configuration">
+                  <li><span>Depth</span><strong>3 conv layers</strong></li>
+                  <li><span>Kernel</span><strong>3 × 3</strong></li>
+                  <li><span>Activation</span><strong>Softplus</strong></li>
+                  <li><span>Dropout</span><strong>10%</strong></li>
+                  <li><span>Optimizer</span><strong>Adam</strong></li>
+                </ul>
+              </figcaption>
+              <a class="evidence-media" href="https://ars.els-cdn.com/content/image/1-s2.0-S0032579122006423-gr6_lrg.jpg" target="_blank" rel="noopener" aria-label="Open Figure 6 at full size">
+                <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0032579122006423-gr6_lrg.jpg" alt="CNN learning curves and prediction error distributions across architecture and training hyperparameters" loading="lazy" decoding="async">
+              </a>
+            </figure>
+          </div>
+        </div>
+
+        <div class="takeaway">
+          <span class="takeaway-mark">52%</span>
+          <p>
+            The proposed CNN reduces mean absolute deviation by <strong>52.4%</strong> compared with pixel-area linear regression and by <strong>45.0%</strong> compared with the handcrafted-feature ANN baseline—without requiring a depth camera or manual feature design.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="citation-section" id="citation">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Citation</p>
+            <h2>Use this work.</h2>
+          </div>
+          <p class="section-lede">
+            The implementation and processed dataset are publicly available. For the original dataset, please refer to the data availability statement in the paper.
+          </p>
+        </div>
+
+        <div class="citation-box">
+          <button class="copy-button" id="copy-citation" type="button">Copy BibTeX</button>
+          <pre id="bibtex">@article{chen2023online,
+  title   = {Online Estimating Weight of White Pekin Duck Carcass by Computer Vision},
+  author  = {Chen, Ruoyu and Zhao, Yuliang and Yang, Yongliang and Wang, Shuyu and Li, Lianjiang and Sha, Xiaopeng and Liu, Lianqing and Zhang, Guanglie and Li, Wen Jung},
+  journal = {Poultry Science},
+  volume  = {102},
+  number  = {2},
+  pages   = {102348},
+  year    = {2023},
+  doi     = {10.1016/j.psj.2022.102348}
+}</pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="visitor-map" aria-label="Visitor map">
+    <div class="shell">
+      <p class="visitor-map-label">Visitors around the world</p>
+      <div class="visitor-map-widget">
+        <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=ti2HDPXKIvPlognyvmve4eT2FO5R1Uslh4P-pMEG0-M&amp;cl=ffffff&amp;w=a"></script>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <span>© Ruoyu Chen · Online Estimating Weight of White Pekin Duck Carcass by Computer Vision</span>
+      <span class="external-note"><a href="../">Back to homepage</a> · Paper figures and video are served from the publisher.</span>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var video = document.getElementById('demo-video');
+      var media = document.getElementById('demo-media');
+      var copyButton = document.getElementById('copy-citation');
+      var bibtex = document.getElementById('bibtex');
+
+      video.addEventListener('error', function () {
+        var fallback = media.querySelector('.demo-fallback');
+        fallback.src = fallback.dataset.src;
+        media.classList.add('is-fallback');
+      });
+
+      copyButton.addEventListener('click', function () {
+        navigator.clipboard.writeText(bibtex.textContent).then(function () {
+          copyButton.textContent = 'Copied';
+          window.setTimeout(function () {
+            copyButton.textContent = 'Copy BibTeX';
+          }, 1600);
+        });
+      });
+    }());
+  </script>
+</body>
+</html>

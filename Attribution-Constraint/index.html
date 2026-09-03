@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0d3b36">
+
+    <title>Where Not to Learn | Prior-Aligned Training</title>
+    <meta name="description" content="Project page for Where Not to Learn: prior-aligned training with subset-based attribution constraints across image classification and GUI agents.">
+    <meta name="citation_title" content="Where Not to Learn: Prior-Aligned Training with Subset-based Attribution Constraints">
+    <meta name="citation_publication_date" content="2026">
+    <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2602.07008">
+    <meta name="citation_arxiv_id" content="2602.07008">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Where Not to Learn | Prior-Aligned Training">
+    <meta property="og:description" content="Training models to make correct decisions using evidence that better aligns with specified human priors.">
+    <meta property="og:url" content="https://ruoyuchen10.github.io/Attribution-Constraint/">
+    <meta property="og:image" content="https://ruoyuchen10.github.io/Attribution-Constraint/resources/motivation.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <script defer src="./static/js/index.js"></script>
+  </head>
+  <body>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <header class="site-header" data-header>
+      <div class="nav-shell">
+        <a class="brand" href="#top" aria-label="Where Not to Learn, back to top">
+          <span class="brand-mark">W</span>
+          <span class="brand-copy">Where Not<br>to Learn</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+          <a href="#problem">Problem</a>
+          <a href="#method">Method</a>
+          <a href="#classification">Classification</a>
+          <a href="#gui">GUI Agent</a>
+          <a href="#citation">Citation</a>
+        </nav>
+        <a class="nav-paper" href="https://arxiv.org/abs/2602.07008" target="_blank" rel="noopener">arXiv <span>↗</span></a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-orb orb-one" aria-hidden="true"></div>
+        <div class="hero-orb orb-two" aria-hidden="true"></div>
+        <div class="shell hero-shell">
+          <div class="paper-kicker reveal">
+            <span>Preprint</span>
+            <span class="kicker-dot"></span>
+            <span>arXiv:2602.07008</span>
+            <span class="kicker-dot"></span>
+            <span>2026</span>
+          </div>
+
+          <h1 class="reveal">
+            <span>Where Not</span>
+            <span>to <em>Learn</em></span>
+          </h1>
+          <p class="full-title reveal">Prior-Aligned Training with Subset-based Attribution Constraints</p>
+          <p class="hero-deck reveal">Correct predictions are not enough. We train models to shift their attributed evidence toward specified human priors—without suppressing every piece of surrounding context.</p>
+
+          <div class="authors reveal" aria-label="Authors">
+            <a href="https://ruoyuchen10.github.io/" target="_blank" rel="noopener">Ruoyu Chen<sup>1</sup></a><span>,</span>
+            <a href="https://scholar.google.com/citations?user=Sf1Jp-8AAAAJ" target="_blank" rel="noopener">Shangquan Sun<sup>2</sup></a><span>,</span>
+            <a href="https://guo-xiaoqing.github.io/" target="_blank" rel="noopener">Xiaoqing Guo<sup>3</sup></a><span>,</span>
+            <a href="https://kangweiiliu.github.io/" target="_blank" rel="noopener">Kangwei Liu<sup>1</sup></a><span>,</span>
+            <a href="https://scholar.google.com/citations?user=n8TL-xkAAAAJ" target="_blank" rel="noopener">Sanyi Zhang<sup>4</sup></a><span>,</span>
+            <span>Zhangcheng Wang<sup>5</sup>,</span>
+            <span>Shiming Liu<sup>6</sup>,</span>
+            <span>Qunli Zhang<sup>6</sup>,</span>
+            <span>Wei Wang<sup>1</sup>,</span>
+            <span>Hua Zhang<sup>1</sup>,</span>
+            <span>Xiaochun Cao<sup>1</sup></span>
+          </div>
+
+          <div class="affiliations reveal">
+            <span><sup>1</sup>University of Chinese Academy of Sciences</span>
+            <span><sup>2</sup>Nanyang Technological University</span>
+            <span><sup>3</sup>Hong Kong Baptist University</span>
+            <span><sup>4</sup>Communication University of China</span>
+            <span><sup>5</sup>ByteDance</span>
+            <span><sup>6</sup>Imperial College London</span>
+          </div>
+
+          <div class="hero-actions reveal">
+            <a class="button button-primary" href="https://arxiv.org/pdf/2602.07008" target="_blank" rel="noopener"><span>Read the paper</span><b>PDF ↗</b></a>
+            <a class="button button-light" href="https://github.com/RuoyuChen10/visual_explanataion_alignment" target="_blank" rel="noopener"><span>Classification</span><b>Code ↗</b></a>
+            <a class="button button-light" href="https://github.com/RuoyuChen10/GUI-Agent-Attribution-Enhancement" target="_blank" rel="noopener"><span>GUI Agent</span><b>Code ↗</b></a>
+          </div>
+
+          <div class="hero-figure reveal">
+            <button class="figure-button" type="button" data-zoom="./resources/motivation.png" data-alt="Overview of prior-aligned training for image classification and GUI agents">
+              <img src="./resources/motivation.png" alt="Overview of prior-aligned training for image classification and GUI agents" width="1665" height="1609">
+              <span class="zoom-hint">View figure <b>↗</b></span>
+            </button>
+            <div class="hero-figure-copy">
+              <span class="figure-index">01 / Motivation</span>
+              <p>A model can arrive at the right answer while attending to the wrong evidence. Human priors turn this hidden mismatch into a trainable signal.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="problem" class="section problem-section">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">The problem</p>
+            <h2>Right answer.<br><em>Wrong reason.</em></h2>
+            <p>Ordinary supervision constrains the output. It rarely specifies which evidence is acceptable for producing it.</p>
+          </div>
+
+          <div class="problem-grid">
+            <article class="abstract-card reveal">
+              <span class="card-label">Abstract</span>
+              <p>Reliable models should not only predict correctly, but also base their decisions on acceptable evidence. Yet class-level supervision can reward shortcuts that never touch the intended object or interface element.</p>
+              <p>We periodically expose compact decision-supporting regions with subset-selection attribution, compare them with human-provided masks or boxes, and penalize influential evidence that falls off-prior.</p>
+              <p>Across image classification and MLLM-based GUI clicking, the resulting models improve observed task performance and attribution–prior alignment.</p>
+            </article>
+
+            <div class="problem-points">
+              <article class="point-card reveal">
+                <span>01</span>
+                <h3>Outputs under-specify evidence</h3>
+                <p>Two models may make the same prediction while relying on very different regions.</p>
+              </article>
+              <article class="point-card reveal">
+                <span>02</span>
+                <h3>Human priors are weak signals</h3>
+                <p>Masks and target boxes guide acceptable evidence, but are not treated as causal ground truth.</p>
+              </article>
+              <article class="point-card reveal">
+                <span>03</span>
+                <h3>Alignment should be selective</h3>
+                <p>We target influential off-prior regions rather than erasing all contextual information.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="method" class="section method-section">
+        <div class="shell">
+          <div class="method-heading reveal">
+            <div>
+              <p class="eyebrow eyebrow-light">The method</p>
+              <h2>Constrain the evidence,<br>not the architecture.</h2>
+            </div>
+            <p>One alignment principle spans discriminative classifiers and autoregressive GUI agents: identify compact supporting subsets, then act only on evidence that violates the supplied prior.</p>
+          </div>
+
+          <div class="method-flow reveal" aria-label="Four stages of prior-aligned training">
+            <article>
+              <span class="flow-number">01</span>
+              <div class="flow-icon">Input</div>
+              <h3>Predict normally</h3>
+              <p>Optimize the standard task objective on every step.</p>
+            </article>
+            <i aria-hidden="true">→</i>
+            <article>
+              <span class="flow-number">02</span>
+              <div class="flow-icon">Rank</div>
+              <h3>Expose evidence</h3>
+              <p>LIMA or EAGLE ranks compact input regions by decision influence.</p>
+            </article>
+            <i aria-hidden="true">→</i>
+            <article>
+              <span class="flow-number">03</span>
+              <div class="flow-icon">Gate</div>
+              <h3>Compare with prior</h3>
+              <p>Overlap gates isolate top-ranked and higher-order off-prior regions.</p>
+            </article>
+            <i aria-hidden="true">→</i>
+            <article>
+              <span class="flow-number">04</span>
+              <div class="flow-icon">Align</div>
+              <h3>Shift attribution</h3>
+              <p>Selective losses discourage off-prior utility and marginal gains.</p>
+            </article>
+          </div>
+
+          <div class="loss-grid">
+            <article class="loss-card deviation reveal">
+              <span class="loss-tag">Top-ranked evidence</span>
+              <h3>Deviation loss</h3>
+              <p>When the most influential region lies outside the human prior, suppress its singleton utility. If it is prior-consistent, this term stays off.</p>
+              <div class="loss-formula">L<sub>dev</sub> = F({v<sub>π1</sub>}) · 𝟙[off-prior]</div>
+            </article>
+            <article class="loss-card redundancy reveal">
+              <span class="loss-tag">Higher-order evidence</span>
+              <h3>Redundancy loss</h3>
+              <p>For every later off-prior region, penalize only its positive marginal gain. This gate operates independently of the top-ranked region.</p>
+              <div class="loss-formula">L<sub>red</sub> = Σ ReLU(Δ<sub>r</sub>) · 𝟙[off-prior]</div>
+            </article>
+          </div>
+
+          <div class="task-bridge reveal">
+            <div class="bridge-label">One principle, two prediction settings</div>
+            <article>
+              <span class="track-chip classification-chip">Classification</span>
+              <h3><a href="https://github.com/RuoyuChen10/LIMA" target="_blank" rel="noopener">LIMA</a></h3>
+              <p>Target-class confidence under retained and complementary image subsets.</p>
+              <a class="bridge-code" href="https://github.com/RuoyuChen10/LIMA" target="_blank" rel="noopener">Code ↗</a>
+            </article>
+            <div class="bridge-line" aria-hidden="true"><span></span></div>
+            <article>
+              <span class="track-chip gui-chip">GUI agent</span>
+              <h3><a href="https://github.com/ruoyuchen10/eagle" target="_blank" rel="noopener">EAGLE</a></h3>
+              <p>Token-level insight and necessity across the thinking–action sequence.</p>
+              <a class="bridge-code" href="https://github.com/ruoyuchen10/eagle" target="_blank" rel="noopener">Code ↗</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section results-intro">
+        <div class="shell">
+          <div class="section-heading compact reveal">
+            <p class="eyebrow">Results at a glance</p>
+            <h2>Better decisions,<br><em>better-aligned attribution.</em></h2>
+          </div>
+          <div class="stat-grid">
+            <article class="stat-card reveal"><strong>6 / 6</strong><span>classification settings improve clean Top-1 accuracy over fine-tuning</span></article>
+            <article class="stat-card reveal"><strong>68.64%</strong><span>average clean accuracy across six matched-supervision comparisons</span></article>
+            <article class="stat-card accent reveal"><strong>89.23%</strong><span>GUI click success with attribution-constrained SFT</span></article>
+            <article class="stat-card reveal"><strong>0.8615</strong><span>GUI Point Game, the best result among evaluated methods</span></article>
+          </div>
+          <p class="result-note reveal">Classification values are reported over three independent runs unless noted. The 936-task GUI study uses one training run per method and should be read as a preliminary proof of concept.</p>
+        </div>
+      </section>
+
+      <section id="classification" class="section classification-section">
+        <div class="shell">
+          <div class="track-heading reveal">
+            <div>
+              <span class="track-number">Track 01</span>
+              <p class="eyebrow">Image classification</p>
+              <h2>Attribution moves toward the object.</h2>
+            </div>
+            <div class="track-copy">
+              <p>Across Saliency-Bench and ImageNet-S, our method improves clean accuracy for CLIP, ViT, and ResNet-101 while increasing LIMA-based Point Game in all reported comparisons.</p>
+              <a href="https://github.com/RuoyuChen10/visual_explanataion_alignment" target="_blank" rel="noopener">Classification repository <span>↗</span></a>
+            </div>
+          </div>
+
+          <figure class="paper-figure reveal">
+            <button class="figure-button" type="button" data-zoom="./resources/visualization_classification.png" data-alt="Classification attribution comparison across fine-tuning, RRR, XIL, MEGL, and our method">
+              <img src="./resources/visualization_classification.png" loading="lazy" alt="Classification attribution comparison across fine-tuning, RRR, XIL, MEGL, and our method" width="3414" height="820">
+              <span class="zoom-hint">View figure <b>↗</b></span>
+            </button>
+            <figcaption><span>Figure 02</span> LIMA attribution maps on Saliency-Bench and ImageNet-S. White contours mark the supplied target-object priors.</figcaption>
+          </figure>
+
+          <div class="table-card reveal">
+            <div class="table-heading">
+              <div><span>Clean performance</span><h3>Fine-tuning → Ours</h3></div>
+              <p>Accuracy and attribution–prior Point Game</p>
+            </div>
+            <div class="table-scroll" tabindex="0">
+              <table>
+                <thead><tr><th>Dataset</th><th>Backbone</th><th>Top-1 accuracy</th><th>Point Game</th></tr></thead>
+                <tbody>
+                  <tr><td rowspan="3">Saliency-Bench</td><td>CLIP</td><td>61.61 <b>→ 65.43</b></td><td>0.4567 <b>→ 0.4733</b></td></tr>
+                  <tr><td>ViT (base)</td><td>53.82 <b>→ 58.06</b></td><td>0.4933 <b>→ 0.5031</b></td></tr>
+                  <tr><td>ResNet-101</td><td>41.16 <b>→ 55.90</b></td><td>0.4533 <b>→ 0.5600</b></td></tr>
+                  <tr><td rowspan="3">ImageNet-S</td><td>CLIP</td><td>79.05 <b>→ 79.84</b></td><td>0.7633 <b>→ 0.8233</b></td></tr>
+                  <tr><td>ViT (base)</td><td>79.05 <b>→ 79.44</b></td><td>0.8700 <b>→ 0.8767</b></td></tr>
+                  <tr><td>ResNet-101</td><td>70.30 <b>→ 73.14</b></td><td>0.8633 <b>→ 0.8833</b></td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="table-note">Values shown as percentages for Top-1 accuracy. Full mean ± standard deviation results and all baselines are in the paper.</p>
+          </div>
+
+          <div class="evidence-strip">
+            <article class="reveal"><strong>5 / 6</strong><p>independent evaluator combinations improve over fine-tuning using RISE or gradient-based attribution.</p></article>
+            <article class="reveal"><strong>+11.01</strong><p>point gain for ResNet Grad-CAM: 37.90% → 48.91%.</p></article>
+            <article class="reveal"><strong>+5.67</strong><p>point gain for ResNet RISE: 40.33% → 46.00%.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="gui" class="section gui-section">
+        <div class="shell">
+          <div class="track-heading inverse reveal">
+            <div>
+              <span class="track-number">Track 02</span>
+              <p class="eyebrow eyebrow-light">MLLM-based GUI agent</p>
+              <h2>The click and its evidence move together.</h2>
+            </div>
+            <div class="track-copy">
+              <p>On 936 single-step Android tasks, attribution-constrained SFT produces the highest click success and the highest target-box Point Game among the evaluated methods.</p>
+              <a href="https://github.com/RuoyuChen10/GUI-Agent-Attribution-Enhancement" target="_blank" rel="noopener">GUI agent repository <span>↗</span></a>
+            </div>
+          </div>
+
+          <div class="gui-scoreboard reveal">
+            <div class="scoreboard-title"><span>AgentCPM-GUI · single run</span><h3>Task performance &amp; attribution alignment</h3></div>
+            <div class="table-scroll dark" tabindex="0">
+              <table>
+                <thead><tr><th>Method</th><th>Click success ↑</th><th>Distance error ↓</th><th>Point Game ↑</th></tr></thead>
+                <tbody>
+                  <tr><td>SFT (LoRA)</td><td>84.61%</td><td>94.71</td><td>0.8153</td></tr>
+                  <tr><td>Box-Guided Aug. SFT</td><td>86.15%</td><td>85.26</td><td>0.8462</td></tr>
+                  <tr><td>Task-Reward GRPO</td><td>87.69%</td><td class="best-secondary">78.42</td><td>0.7692</td></tr>
+                  <tr class="ours-row"><td>Ours (LoRA)</td><td><b>89.23%</b></td><td>78.64</td><td><b>0.8615</b></td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p>GRPO has a marginally lower distance error by 0.22; our method leads click success and Point Game. These descriptive single-run results do not establish deployment reliability.</p>
+          </div>
+
+          <div class="gui-figures">
+            <figure class="paper-figure dark-figure reveal">
+              <button class="figure-button" type="button" data-zoom="./resources/gui_task_success.png" data-alt="GUI task examples comparing SFT and our attribution-constrained method">
+                <img src="./resources/gui_task_success.png" loading="lazy" alt="GUI task examples comparing SFT and our attribution-constrained method" width="2145" height="1174">
+                <span class="zoom-hint">View figure <b>↗</b></span>
+              </button>
+              <figcaption><span>Figure 03</span> Representative clicks, attribution maps, and target UI boxes.</figcaption>
+            </figure>
+            <figure class="paper-figure dark-figure reveal">
+              <button class="figure-button" type="button" data-zoom="./resources/gui_attribution_compare.png" data-alt="Correct GUI clicks with different attribution patterns under SFT and our method">
+                <img src="./resources/gui_attribution_compare.png" loading="lazy" alt="Correct GUI clicks with different attribution patterns under SFT and our method" width="2147" height="1114">
+                <span class="zoom-hint">View figure <b>↗</b></span>
+              </button>
+              <figcaption><span>Figure 04</span> Both agents click correctly; the attributed evidence is not the same.</figcaption>
+            </figure>
+          </div>
+
+          <details class="failure-note reveal">
+            <summary><span>Failure analysis</span><b>Open case study +</b></summary>
+            <div class="failure-content">
+              <button class="figure-button" type="button" data-zoom="./resources/gui_failure.png" data-alt="GUI failure case comparing attribution under SFT and our method">
+                <img src="./resources/gui_failure.png" loading="lazy" alt="GUI failure case comparing attribution under SFT and our method" width="1049" height="1056">
+              </button>
+              <div><h3>Better localization can still end in the wrong action.</h3><p>Neither model outputs a POINT in this example. Our method emphasizes the intended follow control more clearly, but still returns a STATUS. Attribution–prior overlap is evidence of localization consistency—not proof of causal grounding or safety.</p></div>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section class="section analysis-section">
+        <div class="shell analysis-grid">
+          <div class="analysis-copy reveal">
+            <p class="eyebrow">Training behavior</p>
+            <h2>A selective constraint needs a measured dose.</h2>
+            <p>Applying attribution alignment too frequently can disrupt the main task, while an overly large deviation weight can dominate standard supervision. The method therefore uses intermittent, confidence-gated updates.</p>
+            <ul>
+              <li>Classification alignment: every 10 steps</li>
+              <li>GUI alignment: every 5 steps</li>
+              <li>Applied only to confidently correct predictions</li>
+            </ul>
+          </div>
+          <figure class="paper-figure reveal">
+            <button class="figure-button" type="button" data-zoom="./resources/sensitivity.png" data-alt="Sensitivity of accuracy to attribution interval and deviation loss weight">
+              <img src="./resources/sensitivity.png" loading="lazy" alt="Sensitivity of accuracy to attribution interval and deviation loss weight" width="1318" height="685">
+              <span class="zoom-hint">View figure <b>↗</b></span>
+            </button>
+            <figcaption><span>Figure 05</span> Accuracy sensitivity to alignment interval and deviation-loss weight.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="citation" class="section resources-section">
+        <div class="shell">
+          <div class="section-heading compact reveal">
+            <p class="eyebrow">Resources</p>
+            <h2>Paper, code,<br><em>and citation.</em></h2>
+          </div>
+
+          <div class="resource-grid">
+            <a class="resource-card reveal" href="https://arxiv.org/abs/2602.07008" target="_blank" rel="noopener"><span>01</span><div><small>Preprint</small><h3>arXiv paper</h3><p>Abstract, PDF, source, and version history.</p></div><b>↗</b></a>
+            <a class="resource-card reveal" href="https://github.com/RuoyuChen10/visual_explanataion_alignment" target="_blank" rel="noopener"><span>02</span><div><small>Repository</small><h3>Classification code</h3><p>Prior-aligned image classification experiments.</p></div><b>↗</b></a>
+            <a class="resource-card reveal" href="https://github.com/RuoyuChen10/GUI-Agent-Attribution-Enhancement" target="_blank" rel="noopener"><span>03</span><div><small>Repository</small><h3>GUI agent code</h3><p>Attribution-enhanced AgentCPM-GUI training.</p></div><b>↗</b></a>
+          </div>
+
+          <div class="bibtex-card reveal">
+            <div class="bibtex-heading"><div><span>BibTeX</span><h3>Cite this work</h3></div><button type="button" data-copy-bib>Copy citation</button></div>
+            <pre id="bibtex"><code>@article{chen2026where,
+  title   = {Where Not to Learn: Prior-Aligned Training with Subset-based Attribution Constraints},
+  author  = {Chen, Ruoyu and Sun, Shangquan and Guo, Xiaoqing and Liu, Kangwei and Zhang, Sanyi and Wang, Zhangcheng and Liu, Shiming and Zhang, Qunli and Wang, Wei and Zhang, Hua and Cao, Xiaochun},
+  journal = {arXiv preprint arXiv:2602.07008},
+  year    = {2026}
+}</code></pre>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div><strong>Where Not to Learn</strong><p>Prior-aligned training with subset-based attribution constraints.</p></div>
+        <p>Project page · arXiv preprint · 2026</p>
+        <a href="#top">Back to top ↑</a>
+      </div>
+      <div class="visitor-map" aria-label="Visitor map">
+        <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=XAMPbTCWDDIPgn7ILjsY7UxG-YPN1wAMl9nCM66dU2I&amp;cl=ffffff&amp;w=a"></script>
+      </div>
+    </footer>
+
+    <dialog class="image-dialog" aria-label="Expanded paper figure">
+      <button class="dialog-close" type="button" aria-label="Close expanded figure">Close ×</button>
+      <div class="dialog-scroll"><img src="" alt=""></div>
+    </dialog>
+  </body>
+</html>
